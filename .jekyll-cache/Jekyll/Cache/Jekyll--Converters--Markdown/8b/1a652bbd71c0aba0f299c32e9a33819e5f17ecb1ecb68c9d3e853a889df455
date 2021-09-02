@@ -1,0 +1,48 @@
+I"�<h1 id="gestão-financeira-em-cloud">Gestão financeira em Cloud</h1>
+
+<p>Como já comentei em outros artigos (consulte nas referências) a adoção e principalmente o sucesso em utilizar cloud computing possuem alguns pilares importantes e um desses é o pilar financeiro.</p>
+
+<p>Não basta apenas utilizar cloud, é preciso utilizar e utilizar corretamente cada recurso que a cloud disponibiliza. Cada recurso possui inúmeras utilizações possíveis, porém sempre existe uma melhor utilização sob o aspecto financeiro e atendendo os requisitos técnicos.</p>
+
+<blockquote>
+  <p>Logo, usar recursos de maneira equivocada é jogar dinheiro pela janela.</p>
+</blockquote>
+
+<p>Mas os provedores de cloud disponibilizam um painel, onde é possível identificar os custos. Ok, mas só isso não basta.</p>
+
+<p>Existem alguns equívocos, quanto a utilização de alguns recursos, por outro lado, existem um pensamento no modelo on premise, muitas vezes esquecendo de conceitos de elasticidade, por exemplo.</p>
+
+<p>E utilizar cloud de forma saudável sob o aspecto financeiro é uma disciplina que requer atenção, entendimento do negócio e dos recursos que a cloud disponibiliza.</p>
+
+<p>Para facilitar esse trabalho, essa semana, tive a oportunidade em participar de um treinamento oficial da aws sob este tema.</p>
+
+<h1 id="certificado"><strong>Certificado</strong></h1>
+<p><img src="https://brunorusso.com.br/assets/AWS-Cloud-Financial-Management-for-Builders.jpg" alt="Certificado" /></p>
+
+<h1 id="sobre-o-treinamento"><strong>Sobre o treinamento</strong></h1>
+
+<blockquote>
+  <p>This course is for individuals who seek an understanding of how to manage, optimize, and predict costs as you run workloads on AWS. You learn how to implement architectural best practices, explore cost optimization strategies, and design patterns to help you architect cost-efficient solutions on AWS.</p>
+</blockquote>
+
+<h1 id="course-objectives"><strong>Course objectives</strong></h1>
+<p>In this course, you will learn to:</p>
+
+<ul>
+  <li>Explain the cost of core AWS services</li>
+  <li>Determine and predict costs associated with current and future cloud workloads</li>
+  <li>Use strategies and best practices to reduce AWS costs</li>
+  <li>Use AWS tools to manage, monitor, alert, and optimize your AWS spend</li>
+  <li>Apply strategies to monitor service costs and usage</li>
+  <li>Implement governance standards, including resource tagging, account structure, provisioning, permissions, and access.</li>
+</ul>
+
+<p>Mais informações em: <a href="https://www.aws.training/Details/InstructorLedTraining?id=66130">https://www.aws.training/Details/InstructorLedTraining?id=66130</a>.</p>
+
+<h1 id="referências"><strong>Referências</strong></h1>
+
+<ol>
+  <li><a href="https://brunorusso.com.br/2020/09/27/por-onde-comecar-em-cloud-computing/">Por onde começar em cloud computing?</a></li>
+  <li><a href="https://brunorusso.com.br/2020/08/01/como-ter-sucesso-com-cloud-computing/">Como ter sucesso com Cloud Computing</a></li>
+</ol>
+:ET

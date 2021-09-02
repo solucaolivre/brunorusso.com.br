@@ -1,0 +1,11 @@
+I"�<p>Desde 2001 que sempre utilizo o <a href="www.squid-cahce.org" target="_blank" rel="noopener noreferrer">squid</a> para realizar o trabalho de proxy.<br />
+Durante todo esse período, já realizei diversas configurações, como por exemplo: restrição de acesso por máquina, restrição acesso por usuário, retrição por palavra específica, restrição por domínio, restrição por horário etc... (portanto todo tipo de bloqueio já realizei).<br />
+Porém, o último proxy que configurei não funciona de jeito nenhum. :(<br />
+Testei por diversas horas e nada.<br />
+Reescrevi o arquivo de configuração diversas vezes e mesmo assim nada. O proxy não funcionava. :|<br />
+Até que começou a ter erro do "spool" (swap). Iniciava o proxy com o diretório de swap zerado para ele criar e nada. :(<br />
+Mas como nem sempre tudo está perdido, a solução foi encontrada :D<br />
+A <a href="http://www.conectiva.com.br" target="_blank" rel="noopener noreferrer">mandriva (antiga conectiva)</a>, tem em seu site um excelente material de configuração de servidores e serviços. E foi <a href="http://www.conectiva.com.br/cpub/pt/incConectiva/suporte/pr/servidores.squid.acesso.html#SERVIDORES.SQUID.RESTRICOES" target="_blank" rel="noopener noreferrer">lá</a> que resolvi o problema.<br />
+O erro era um simples <strong> -i </strong> que faltava na linha de configuração das ACL's do squid. Um simples <strong> -i </strong> fez eu perder o tempo de aproximadamente 1 dia e meio de trabalho.<br />
+:P</p>
+:ET

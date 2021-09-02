@@ -1,0 +1,235 @@
+I"�:<p>O <a title="Software Livre" href="http://pt.wikipedia.org/wiki/Software_livre">Software Livre</a> é realmente incrível!!</p>
+<p>Na Lista de discuss&#227;o do <a href="http://groups.google.com/group/slack-users-br">GUS-BR</a>, a usuária, Aiyumi Moriya, fez um relato da sua experi&#234;ncia na instalaç&#227;o e utilizaç&#227;o do Linux, mais precisamente o Slackware na vers&#227;o 12.2.</p>
+<p>Abaixo, segue o conteúdo completo do <a href="http://groups.google.com/group/slack-users-br/msg/4e7b34c1434304b4?">relato enviado &#224; lista</a>.</p>
+<blockquote><p>Introduç&#227;o</p>
+<p>Sou uma deficiente visual que teve a doida ideia de migrar de Rwindows<br />
+para Linux (Slackware). Estou escrevendo para dar meu depoimento sobre<br />
+a experi&#234;ncia que tive com a instalaç&#227;o e a configuraç&#227;o do sistema.<br />
+Uso computador desde 1996. Fui usuária de Rwindows até fevereiro deste<br />
+ano (2009), quando mudei para Linux de uma vez por todas. Na verdade,<br />
+fazia tempo que fiquei curiosa e quis experimentar o Linux, mas nunca<br />
+tive coragem. Há cerca de dois anos, precisei fazer um trabalho sobre<br />
+Software Livre na faculdade, desde ent&#227;o passei a acompanhar mais os<br />
+acontecimentos nas comunidades. Os dias passavam e o Rwindows foi<br />
+deixando de atender  as minhas necessidades e ia dando mais vontade de<br />
+migrar, mas ainda n&#227;o sabia como.</p>
+<p>Primeira Tentativa, Primeiras Impress&#245;es</p>
+<p>Certo dia, fiquei sabendo que existia um leitor de telas para Linux<br />
+chamado Orca<br />
+http://live.gnome.org/Orca<br />
+e que ele vinha por padr&#227;o no Ubuntu. Resolvi testar. Instalei no meu<br />
+laptop e, que beleza, funciona direitinho! Ou pelo menos foi o que eu<br />
+achei no começo. Havia vários problemas que atrapalhavam, um dos mais<br />
+irritantes era uma medida de segurança do Gnome que fazia com que o<br />
+Orca n&#227;o falasse na hora de realizar tarefas administrativas. Fiz o<br />
+que é indicado em<br />
+http://live.gnome.org/Orca/SysAdmin<br />
+n&#227;o adiantou muito, &#224;s vezes falava, na maioria das outras n&#227;o. Também<br />
+acontecia muito de parar de falar, ou travar tudo de repente. O<br />
+problema foi ficando cada vez mais frequente, até que o meu Ubuntu n&#227;o<br />
+funcionou mais. Li alguns artigos que me levaram &#224; conclus&#227;o de que a<br />
+acessibilidade no pinguim ainda estava fraca. Fiquei pensando que os<br />
+problemas de travamento que tive eram "culpa" do Orca e resolvi<br />
+esperar algum tempo até que ficasse mais maduro.</p>
+<p>Decepç&#245;es</p>
+<p>Alguns meses se passaram. Ainda n&#227;o queria desistir do Linux. Resolvi<br />
+"ver" a quantas andava e baixei o Ubuntu 8.10. Infelizmente o áudio<br />
+n&#227;o funcionou no meu PC, que estava com uma placa de áudio Realtek<br />
+daquelas consideradas problemáticas para usuários Linux. Testei no<br />
+laptop e o leitor de telas finalmente falou: "Welcome to<br />
+Orca." ... ... ..... E mais nada. Procurei em fóruns, no site oficial<br />
+e na lista de discuss&#227;o do Orca pela resposta do porqu&#234; de n&#227;o ter<br />
+funcionado no Ubuntu 8.10. N&#227;o encontrei nada parecido com o meu caso.<br />
+Li várias coisas durante essa busca e cheguei a uma conclus&#227;o: n&#227;o<br />
+gostei do Ubuntu.<br />
+- Primeiro, porque o Gnome é muito pesado e vem com um mundo de coisas<br />
+desnecessárias, que se eu n&#227;o quisesse, teria de remover uma a uma,<br />
+ainda correndo o risco do APT ou do Synaptic removerem junto coisas<br />
+que n&#227;o deveriam.<br />
+- Segundo, porque tem aquela falha que deixa o leitor de telas mudo<br />
+como Root.<br />
+- Terceiro, porque passou a usar o PulseAudio como padr&#227;o em vez do<br />
+ALSA e várias pessoas postaram na lista do Orca que isso diminui a<br />
+performance na acessibilidade, com umas soluç&#245;es complicadas para<br />
+desinstalar o Pulse e ficar sem som enquanto tenta instalar o ALSA.<br />
+Li que o Orca funcionava com aplicativos em GTK2, n&#227;o necessariamente<br />
+só com o Gnome. O XFCE (que é mais leve que o Gnome) também é em GTK2,<br />
+ent&#227;o tentei o Xubuntu (certo, também é Ubuntu, mas pelo menos n&#227;o é o<br />
+Gnome). Coloquei o Orca nele e também n&#227;o deu certo, n&#227;o falou nada!<br />
+"N&#227;o, n&#227;o é possível, tem de haver outra soluç&#227;o... Outra distro...",<br />
+eu pensava enquanto vasculhava a Internet em busca de respostas.<br />
+Encontrei perguntas do tipo:<br />
+"Existe alguma distro acessível por padr&#227;o?"<br />
+"Tenho um amigo deficiente visual e ele quer usar o Linux. Que distro<br />
+voc&#234;s me indicam?"<br />
+e as respostas eram:<br />
+"Ubuntu"<br />
+"Ubuntu"<br />
+"Ubuntu"<br />
+"Ubuntu"<br />
+"Ubuntu", ou alguma outra baseada nele.....<br />
+"N&#227;o! Eu já disse que n&#227;o quero mais Ubuntu! Ah, chega! Vou tentar<br />
+outra coisa...", resolvi testar o Oralux, uma tentativa de<br />
+distribuiç&#227;o acessível já abandonada. N&#227;o funcionou no laptop, muito<br />
+menos no PC principal por causa da placa Realtek problemática, apenas<br />
+suportada a partir do Alsa 1.0.17 (sei lá qual era a vers&#227;o<br />
+ultrapassada do Alsa do Oralux...). Tentei outra distro (que n&#227;o<br />
+lembro qual era), disponível apenas em Ingl&#234;s, também n&#227;o funcionou<br />
+pelo mesmo motivo da anterior.</p>
+<p>A Última Esperança</p>
+<p>Mais perguntas na Internet, mas apenas relacionadas a Linux, sem<br />
+considerar acessibilidade:<br />
+"Quero estudar Linux, que distro voc&#234;s recomendam?"<br />
+Resposta:<br />
+"Use Slackware. Distro simples, estável, bem testada, bastante<br />
+respeitada, uma das poucas que ainda n&#227;o perdeu suas raízes, e faz<br />
+aprender na marra, porque n&#227;o vem quase nada configurado e voc&#234; é<br />
+obrigado a se virar."<br />
+"Ok, vai ser essa.", decidi.<br />
+Relatos na net diziam "É muito difícil!", mas será que era tanto<br />
+assim? Li vários artigos sobre a instalaç&#227;o e configuraç&#227;o, incluindo:<br />
+http://www.gdhpress.com.br/blog/instalando-o-slackware/<br />
+http://www.gdhpress.com.br/blog/slackware-sobrevivendo-ao-primeiro-boot/<br />
+http://www.gdhpress.com.br/blog/configurando-o-x/<br />
+E até o livro oficial, o SlackBook ("Slackware Linux Essentials"),<br />
+entrou na dança:<br />
+http://slackbookptbr.sourceforge.net/livro/slackbook.html<br />
+A cada artigo que eu lia, ficava cada vez mais certa de que era o que<br />
+eu queria. E mais, ele é acessível! Ou melhor, quase. Descobri que o<br />
+Slackware já vem com um leitor de telas, o Speakup<br />
+http://www.linux-speakup.org/<br />
+e que era possível realizar a instalaç&#227;o falada por meio dele. O<br />
+problema é que ele só suporta sintetizadores de voz via hardware por<br />
+padr&#227;o e eu n&#227;o tenho esses equipamentos. Também há suporte a síntese<br />
+via software através do Speech-Dispatcher<br />
+http://www.freebsoft.org/speechd<br />
+e do Speechd-Up<br />
+http://www.freebsoft.org/speechd-up<br />
+, mas só depois de instalados o Slackware e os softwares de fala.<br />
+Ent&#227;o, de qualquer jeito eu precisaria de ajuda de alguém que<br />
+enxergasse.<br />
+Mesmo com o contra acima, resolvi instalar o Slackware. Algo me dizia<br />
+que seria difícil, enquanto outro algo dizia que n&#227;o seria impossível.</p>
+<p>Instalando e Configurando</p>
+<p>Destruí todos os meus experimentos falhos do meu laptop e inseri o DVD<br />
+do Slackware 12.2. Ent&#227;o, fiz minha m&#227;e, que n&#227;o entende nada de linux<br />
+e quase nada de Ingl&#234;s, ler o instalador inteiro para mim. Umas tr&#234;s<br />
+horas depois, o Slack estava no meu laptop, mudo, mas funcionando.<br />
+Seguindo os passos de um dos artigos já mencionados, ainda com ajuda<br />
+n&#227;o técnica, configurei o áudio com o "alsaconf", usei o "alsamixer"<br />
+para aumentar o volume, seguido de "alsactl store" para salvar. Para<br />
+fazer o negócio falar, usei o outro computador (que ainda estava com<br />
+Rwindows) para entrar na Internet e baixar os seguintes softwares:<br />
+- Espeak (sintetizador de voz com suporte a vários idiomas, inclusive<br />
+o Portugu&#234;s):<br />
+http://espeak.sourceforge.net/<br />
+- Speech-dispatcher (servidor de fala):<br />
+http://www.freebsoft.org/speechd<br />
+- YASR (leitor de telas para o console):<br />
+http://yasr.sourceforge.net/<br />
+Transportei-os para o laptop com a ajuda de um pendrive e instalei<br />
+cada um com os tr&#234;s comandos básicos "./configure", "make" e "make<br />
+install". Assim, finalmente consegui usar o terminal e me virar sem<br />
+auxílio visual.</p>
+<p>Aperfeiçoando</p>
+<p>Bastou viver um pouco no mundo Slackware para descobrir que usar os<br />
+tr&#234;s comandos básicos n&#227;o é a forma mais prática para instalar (e<br />
+depois desinstalar) aplicativos. Fiquei sabendo dos SlackBuilds,<br />
+scripts para compilar programas e gerar pacotes para o Slack,<br />
+facilmente gerenciados pelas ferramentas da distro. Peguei um<br />
+SlackBuild básico, o da biblioteca Glib, mais alguns do repositório<br />
+http://repository.slacky.eu/<br />
+e usei como base para compilar as últimas vers&#245;es do Orca e suas<br />
+depend&#234;ncias.<br />
+Depois de muitos erros e acertos, consegui instalar o Orca. Coloquei-o<br />
+para falar e ele disse:<br />
+"Welcome to Orca." ... ... ..... E mais nada.<br />
+"Ué? Por qu&#234;? Será que é porque n&#227;o é o Gnome? N&#227;o, n&#227;o pode ser, fugi<br />
+tanto dele para acabar nisso... Será mesmo que n&#227;o tem escapatória e<br />
+vou ter de instalá-lo?"<br />
+A resposta logo veio. Encontrei outra tentativa de distro acessível, a<br />
+nova vers&#227;o do Knoppix com um conjunto de softwares chamado ADRIANE<br />
+(Audio Desktop Reference Implementation and Networking Environment)<br />
+http://www.knopper.net/knoppix-adriane/index-en.html<br />
+Baixei e testei. A vers&#227;o do ALSA era meio antiga e n&#227;o funcionou no<br />
+PC por causa da placa de áudio problemática, mas no laptop foi que uma<br />
+beleza. A distro apresentava uma interface com menus em modo texto,<br />
+usando o Dialog e um leitor de telas para console, inclusive havia uma<br />
+opç&#227;o de usar a interface gráfica, com o Orca como leitor de telas,<br />
+Firefox, OpenOffice e o LXDE<br />
+(http://www.lxde.org)<br />
+como desktop. Funcionou &#224;s mil maravilhas e sem Gnome!<br />
+Encontrei um artigo interessante sobre o assunto:<br />
+http://www.linux-magazine.com.br/images/uploads/pdf_aberto/LM_51_50_5...<br />
+por meio dele e com base em alguns shell scripts do ADRIANE, soube que<br />
+para integrar o Orca com outras ferramentas GTK que n&#227;o o Gnome, era<br />
+preciso setar algumas variáveis na inicializaç&#227;o:<br />
+export SAL_USE_VCLPLUGIN="gtk"</p>
+<p>export GTK_MODULES="gail:atk-bridge"</p>
+<p>Mesmo assim n&#227;o funcionou, nada mais era dito além de "Welcome to<br />
+Orca.". Outra vez, procurei pelas listas de discuss&#227;o e pelos fóruns,<br />
+sem encontrar nenhum caso doido parecido com o meu. Até que encontrei<br />
+o guia de como criar aplicativos acessíveis em GTK:<br />
+http://live.gnome.org/GAP/AtkGuide/Gtk<br />
+onde dizia para setar a variável "GNOME_ACCESSIBILITY" para "1".<br />
+Apesar do guia informar que colocar essa instruç&#227;o no script de<br />
+inicializaç&#227;o do usuário estava depreciado (deprecated), foi só fazer<br />
+isso que o Orca abriu a matraca de vez!<br />
+Para iniciar uma sess&#227;o gráfica falante, era "só" colocar o seguinte<br />
+no final do arquivo .xinitrc:<br />
+# ----------------------------------------------------<br />
+# Inicia o registro do AT-SPI<br />
+exec "/usr/libexec/at-spi-registryd"&amp;</p>
+<p># Coloca em modo de acessibilidade<br />
+gconftool-2 -s --type=bool /desktop/gnome/interface/accessibility true</p>
+<p># "Engana" o programa, fingindo estar usando o GDM<br />
+export LOGNAME="GDM"</p>
+<p># Integraç&#227;o com aplicativos em GTK<br />
+export SAL_USE_VCLPLUGIN="gtk"</p>
+<p>export GTK_MODULES="gail:atk-bridge"</p>
+<p>export GNOME_ACCESSIBILITY=1</p>
+<p># Inicia o gerenciador de janelas</p>
+<p>sleep 0.5</p>
+<p>exec /usr/bin/startlxde&amp; # Para o caso do LXDE</p>
+<p># Inicia o leitor de telas Orca<br />
+# (precisa ser a última coisa a iniciar)</p>
+<p>orca -n</p>
+<p># ----------------------------------------------------</p>
+<p>Migrando</p>
+<p>Depois de fazer backup de todos meus arquivos importantes, sem dó,<br />
+destruí a partiç&#227;o do Rwindows. novamente, com ajuda n&#227;o técnica,<br />
+dessa vez escolhendo o Kernel com o Speakup, repeti o processo de<br />
+instalaç&#227;o e configuraç&#227;o do Slackware, agora no PC. Usei os<br />
+pacotes .tgz que construí nos meus experimentos no laptop para<br />
+instalar os aplicativos de acessibilidade. Mais alguns erros e acertos<br />
+depois, já tinha o computador principal com Slackware Linux e, melhor<br />
+ainda, falando!</p>
+<p>Como Est&#227;o as Coisas Hoje</p>
+<p>Ainda n&#227;o consegui fazer o Speakup falar via software , as instruç&#245;es<br />
+disponíveis est&#227;o desatualizadas, vários nomes e comandos mudaram e já<br />
+n&#227;o sei mais qual é qual.<br />
+Fora o Speakup(que n&#227;o está funcionando) e o Orca, estou com mais dois<br />
+leitores de tela (console) instalados para testes e para emerg&#234;ncias:<br />
+O YASR e o SBL (SUSE Blinux Screen Reader)<br />
+http://en.opensuse.org/SUSE_Blinux<br />
+que tem muito mais opç&#245;es e configurabilidade do que o YASR.<br />
+Uso os aplicativos "comuns" para as tarefas do dia-a-dia (Firefox para<br />
+navegar na Internet, MPlayer para reproduzir vídeo e música, BROffice<br />
+para abrir os documentos com formatos proprietários etc.).<br />
+Quando preciso rodar algum aplicativo do outro sistema operacional<br />
+(geralmente, coisas relacionadas a games), uso o Wine, brigo com ele<br />
+reclamando das DLLs faltando daqui e dali, mas com um pouco de<br />
+paci&#234;ncia, funciona. Infelizmente ele n&#227;o consegue rodar o NVDA<br />
+(leitor de telas aberto para Rwindows<br />
+http://www.nvda-project.org<br />
+), mas como uso só de vez em quando, recorro &#224; ajuda n&#227;o técnica.</p>
+<p>Conclus&#227;o</p>
+<p>Apesar de ter apanhado bastante dos aplicativos de acessibilidade,<br />
+agora estou usando o Linux e n&#227;o me arrependo. O Slackware é uma ótima<br />
+distribuiç&#227;o, os arquivos de configuraç&#227;o s&#227;o bem organizados, (sei<br />
+que muitos n&#227;o concordam com isso mas na minha opini&#227;o) tem métodos<br />
+simples e eficazes de gerenciar pacotes e vem por padr&#227;o com muitos<br />
+programas úteis, tanto para usuários comuns quanto para<br />
+desenvolvedores. Estou bastante satisfeita com ele.</p></blockquote>
+<p>É por esses e outros motivos que existe um orgulho no auxílio do desenvolvimento do Software Livre, seja o auxílio no desenvolvimento, apoio financeiro, apoio nos testes, apoio na documentaç&#227;o, etc.</p>
+:ET

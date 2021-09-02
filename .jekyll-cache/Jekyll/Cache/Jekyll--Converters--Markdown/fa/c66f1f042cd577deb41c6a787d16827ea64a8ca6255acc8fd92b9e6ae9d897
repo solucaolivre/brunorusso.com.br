@@ -1,0 +1,7 @@
+I"�<p>Jogo rápido!</p>
+<p>D-iptables: script feito em bash com dialog. Faz perguntas ao usuário e no final cria uma regra em iptables. Atualmente trabalha apenas na tabela filter do iptables.</p>
+<p>Site: <a href="http://d-iptables.sf.net">http://d-iptables.sf.net</a>.<br />
+Vers&#227;o atual: 0.1</p>
+<p>TODO: Diversas melhorias, precisa trabalhar com mais opç&#245;es do iptables. Ah! O site precisa ser melhorado também.</p>
+<p>Divirta-se!!</p>
+:ET

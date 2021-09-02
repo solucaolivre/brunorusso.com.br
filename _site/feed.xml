@@ -1,0 +1,259 @@
+
+
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>https://brunorusso.com.br/</id>
+  <title>Bruno Russo</title>
+  <subtitle>A minimal, portfolio, sidebar, bootstrap Jekyll theme with responsive web design and focuses on text presentation.</subtitle>
+  <updated>2021-09-02T13:14:30+00:00</updated>
+  <author>
+    <name>Bruno T. Russo</name>
+    <uri>https://brunorusso.com.br/</uri>
+  </author>
+  <link rel="self" type="application/atom+xml" href="https://brunorusso.com.br/feed.xml"/>
+  <link rel="alternate" type="text/html" hreflang="pt-BR"
+    href="https://brunorusso.com.br/"/>
+  <generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator>
+  <rights> © 2021 Bruno T. Russo </rights>
+  <icon>/assets/img/favicons/favicon.ico</icon>
+  <logo>/assets/img/favicons/favicon-96x96.png</logo>
+
+
+  
+  <entry>
+    <title>Últimos Treinamentos</title>
+    <link href="https://brunorusso.com.br/posts/Ultimos-Treinamentos/" rel="alternate" type="text/html" title="Últimos Treinamentos" />
+    <published>2021-06-05T21:00:00+00:00</published>
+  
+    <updated>2021-06-05T21:00:00+00:00</updated>
+  
+    <id>https://brunorusso.com.br/posts/Ultimos-Treinamentos/</id>
+    <content src="https://brunorusso.com.br/posts/Ultimos-Treinamentos/" />
+    <author>
+      <name>Bruno T. Russo</name>
+    </author>
+
+  
+    
+    <category term="Blogging" />
+    
+    <category term="governança" />
+    
+    <category term="Gestão" />
+    
+    <category term="treinamento" />
+    
+    <category term="Cloud" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      Últimos treinamentos realizados
+
+Amazon DynamoDB Service Primer
+
+Certificado
+
+
+Exam Readiness: AWS Certified Developer – Associate (Digital) (Portuguese)
+
+
+Referências
+
+
+  Por onde começar em cloud computing?
+  Como ter sucesso com Cloud Computing
+
+
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>Migrating to AWS</title>
+    <link href="https://brunorusso.com.br/posts/Migrating-to-AWS/" rel="alternate" type="text/html" title="Migrating to AWS" />
+    <published>2021-06-05T19:00:00+00:00</published>
+  
+    <updated>2021-06-05T19:00:00+00:00</updated>
+  
+    <id>https://brunorusso.com.br/posts/Migrating-to-AWS/</id>
+    <content src="https://brunorusso.com.br/posts/Migrating-to-AWS/" />
+    <author>
+      <name>Bruno T. Russo</name>
+    </author>
+
+  
+    
+    <category term="Blogging" />
+    
+    <category term="governança" />
+    
+    <category term="Gestão" />
+    
+    <category term="treinamento" />
+    
+    <category term="Cloud" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      Sobre o treinamento
+
+
+  Migrating to AWS focuses on planning and migrating existing workloads to the AWS Cloud. The course covers various cloud migration strategies with a detailed discussion on each phase of the migration process, including portfolio discovery, application migration planning and design, migration execution, and post-migration validation and application optimization. The first ...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>AWS Cloud Financial Management for Builders</title>
+    <link href="https://brunorusso.com.br/posts/AWS-Cloud-Financial-Management-for-Builders/" rel="alternate" type="text/html" title="AWS Cloud Financial Management for Builders" />
+    <published>2021-04-15T18:00:00+00:00</published>
+  
+    <updated>2021-04-15T18:00:00+00:00</updated>
+  
+    <id>https://brunorusso.com.br/posts/AWS-Cloud-Financial-Management-for-Builders/</id>
+    <content src="https://brunorusso.com.br/posts/AWS-Cloud-Financial-Management-for-Builders/" />
+    <author>
+      <name>Bruno T. Russo</name>
+    </author>
+
+  
+    
+    <category term="Blogging" />
+    
+    <category term="governança" />
+    
+    <category term="Gestão" />
+    
+    <category term="treinamento" />
+    
+    <category term="Cloud" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      Gestão financeira em Cloud
+
+Como já comentei em outros artigos (consulte nas referências) a adoção e principalmente o sucesso em utilizar cloud computing possuem alguns pilares importantes e um desses é o pilar financeiro.
+
+Não basta apenas utilizar cloud, é preciso utilizar e utilizar corretamente cada recurso que a cloud disponibiliza. Cada recurso possui inúmeras utilizações possíveis, porém...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>Agile Rhapsody - Bohemian Rhapsody Parody - Scrum Team Building - Funny scrum song - Agile Song</title>
+    <link href="https://brunorusso.com.br/posts/Bohemian-Rhapsody-Parody/" rel="alternate" type="text/html" title="Agile Rhapsody - Bohemian Rhapsody Parody - Scrum Team Building - Funny scrum song - Agile Song" />
+    <published>2021-04-06T07:43:00+00:00</published>
+  
+    <updated>2021-04-06T07:43:00+00:00</updated>
+  
+    <id>https://brunorusso.com.br/posts/Bohemian-Rhapsody-Parody/</id>
+    <content src="https://brunorusso.com.br/posts/Bohemian-Rhapsody-Parody/" />
+    <author>
+      <name>Bruno T. Russo</name>
+    </author>
+
+  
+    
+    <category term="governança" />
+    
+    <category term="Gestão" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      Bohemian Rhapsody já é uma música fantástica, agora com uma paródia em relação a metodologia ágil, é muito melhor.
+
+
+    
+
+
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>Aprendizado Contínuo</title>
+    <link href="https://brunorusso.com.br/posts/aprendizado-continuo/" rel="alternate" type="text/html" title="Aprendizado Contínuo" />
+    <published>2021-04-04T19:20:00+00:00</published>
+  
+    <updated>2021-04-04T19:20:00+00:00</updated>
+  
+    <id>https://brunorusso.com.br/posts/aprendizado-continuo/</id>
+    <content src="https://brunorusso.com.br/posts/aprendizado-continuo/" />
+    <author>
+      <name>Bruno T. Russo</name>
+    </author>
+
+  
+    
+    <category term="Blogging" />
+    
+    <category term="governança" />
+    
+    <category term="Gestão" />
+    
+    <category term="treinamento" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      É tempo de aprender!
+
+Aproveitando a antecipação dos feriados na cidade de São Paulo, devido a pandemia, reservei meu tempo para aperfeiçoar os chamados soft skills.
+
+Realizei dois treinamentos on-line focados em soft skills, são eles: “Soft-skills: Liderança de Alto Desempenho” e “Influência, Persuasão e Liderança”.
+
+O bom de fazer esse tipo de treinamento é que você acaba percebendo que algun...
+    </summary>
+  
+
+  </entry>
+
+</feed>
+
+

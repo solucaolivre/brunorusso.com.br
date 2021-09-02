@@ -1,0 +1,14 @@
+I"/<p>Ao tentar conversar no Skype, no Slackware 12, aparece uma mensagem de erro referente ao equipamento de som.</p>
+<p style="text-align:center;"><img src="/assets/2007/10/skype.png" alt="skype" /></p>
+<p>No console, podemos identificar a seguinte mensagem:</p>
+<blockquote><p>ALSA lib pcm_dsnoop.c:558:(snd_pcm_dsnoop_open) unable to open slave</p></blockquote>
+<p>O problema pode ser resolvido da seguinte forma:</p>
+<p><code><br />
+# chmod o+r /dev/snd/pcmC0D0c<br />
+Agora basta editar o /etc/udev/rules.d/udev.rules, trocando a linha<br />
+KERNEL=="pcm[CD0-9]*c", NAME="snd/%k", MODE="0662"<br />
+pela linha<br />
+KERNEL=="pcm[CD0-9]*c", NAME="snd/%k", MODE="0666"<br />
+</code></p>
+<p>Consegui resolver esse problemas, graças aos passos encontrados em: http://www.slackbr.org/forum/viewtopic.php?t=14694</p>
+:ET

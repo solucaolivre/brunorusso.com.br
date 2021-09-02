@@ -1,0 +1,14 @@
+I"ü<p>Ai vai uma dica para saber qual o tamanho de um schema no Oracle.<br />
+<code><br />
+select<br />
+segment_type, sum(bytes) size_in_bytes<br />
+from<br />
+dba_segments<br />
+where<br />
+OWNER = 'NOME_DA_SCHEMA'<br />
+group by<br />
+segment_type<br />
+</code></p>
+<p style="text-align:left;">Substitua: NOME_DO_SCHEMA, pelo nome do&nbsp;schema que vocÃª quer saber o tamanho!</p>
+<p style="text-align:center;"><img class="aligncenter" src="/assets/2008/11/oracle.gif" alt="" width="497" height="172" /></p>
+:ET

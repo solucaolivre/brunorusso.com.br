@@ -1,0 +1,25 @@
+I"�
+<p>Cerca de um m&#234;s atrás, tive que preparar um ambiente na Locaweb, utilizando a tecnologia <a title="Cloud" href="http://en.wikipedia.org/wiki/Cloud_computing">CLOUD</a> oferecida pela <a title="Locaweb" href="http://www.locaweb.com.br">LOCAWEB</a>.</p>
+<p>A computaç&#227;o nas nuvens é algo recente no mundo da Informática, porém está tendo uma grande aceitaç&#227;o perante &#224;s empresas. Uma grande vantagem é a escabilidade que esse sistema possui.</p>
+<blockquote><p>A nuvem computacional ou cloud computing consiste em compartilhar ferramentas computacionais pela interligaç&#227;o dos sistemas, semelhantes as nuvens no céu, ao invés de ter essas ferramentas localmente (mesmo nos servidores internos). O uso desse modelo (ambiente) é mais viável do que o uso de unidades físicas. [<a href="http://pt.wikipedia.org/wiki/Computa%C3%A7%C3%A3o_em_nuvem">WIKIPEDIA</a>].</p></blockquote>
+<p>Bom, mas esse post n&#227;o é para falar sobre Cloud e sim sobre um grande problema de performance que encontrei.</p>
+<p>A Locaweb, possui dois Sistemas Operacionais para o Sistema de Cloud: Ubuntu e CentOS. A opç&#227;o foi pelo <a title="CentOS" href="http://www.centos.org/">CentOS</a>.</p>
+<p>A hospedagem foi escolhida para um site simples com <a href="http://www.google.com.br/search?q=lamp&amp;ie=utf-8&amp;oe=utf-8&amp;aq=t&amp;rls=org.mozilla:en-US:official&amp;client=firefox-a">LAMP</a>.</p>
+<p>O problema foi que ao acessar as páginas em PHP, o tempo de resposta era enorme quando comparado com o mesmo site em um ambiente compartilhado.</p>
+<p>Começa ent&#227;o uma verdadeira batalha para sanar o problema.</p>
+<ol>
+<li>Foi realizado um UPGRADE no Apache, o problema persistiu;</li>
+<li>Foi realizado um UPGRADE no PHP, o problema persistiu;</li>
+<li>Foi realizado um UPGRADE em todo o Sistema, o problema persistiu;</li>
+</ol>
+<p>Após, diversos testes e diversas configuraç&#245;es realizadas, como: mudança na configuraç&#227;o da memória do Apache e diversos outros parâmetros o problema persistia.</p>
+<p>Também tentei resolver o problema com alguns módulos extras para agilizar na compilaç&#227;o do código em PHP, mas mesmo com tudo isso o problema persistia.</p>
+<p>A soluç&#227;o encontrada para sanar o problema foi:</p>
+<ol>
+<li>baixar o código fonte do apache;</li>
+<li>executar: ./configure &amp;&amp; make &amp;&amp; make install</li>
+</ol>
+<p>Pronto! site respondendo 100 vezes mais rápido.</p>
+<p>Conclus&#227;o</p>
+<p>Acredito que exista algum problema na compilaç&#227;o do apache distribuído com o CentOS, onde em algum momento que eu n&#227;o consegui identificar, existe um "conflito" com a Virtualizaç&#227;o. Digo isso, pois possui vários ambientes "físicos" CentOS + APACHE onde a performance é excelente.</p>
+:ET

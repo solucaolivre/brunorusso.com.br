@@ -1,0 +1,14 @@
+I"�<p><img src="/assets/2007/04/cacic.gif" border="0" align="left" />Recentemente fiz a instalação do software de <em>inventário</em> <a href="http://guialivre.governoeletronico.gov.br/cacic/sisp2/">Cacic</a> na versão 11 do Slackware e o resultado foi de 100%. Tudo funcionou sem maiores problemas, porém é claro que foi necessário refazer, ou melhor, recompilar o PHP, mas somente isso. ;)</p>
+<p>A nova versão 2.2.2 <em>acho que é esse o número da última versão...</em> é muito, mas muito mais fácil a instalação! Você apenas salva os arquivos no diretório onde o Servidor web possa acessar e através do browser você cria o banco de dados e verifica as dependências necessárias para a instalação do cacic.</p>
+<p>Abaixo, vou tentar descrever o que deve ser feito para o cacic funcionar com o slackware. São passos simples que devem ser tomados:</p>
+<p>A primeira coisa a fazer é baixar os pacotes da biblioteca mcrypt. Essa biblioteca é necessária para a criptografia, porém o [php ] que vem no <a href="http://www.slackware.com">slackware</a>, tanto o php4 quanto o php5, não possuem suporte a essa bilbioteca.</p>
+<p>Essa biblioteca pode ser baixada no <a href="http://www.sf.net">SF</a>, mas aí vai o link direto: <a href="http://sourceforge.net/project/showfiles.php?group_id=87941">http://sourceforge.net/project/showfiles.php?group_id=87941</a></p>
+<p>A instalação é simples.</p>
+<blockquote><p>&nbsp;tar pacote.tar.gz ; ./configure ; make ; make install ; ldconfig</p></blockquote>
+<p><strong>Detalhe:</strong> primeiro compile a Libmcrypt e em seguida a MCrypt.</p>
+<p>Após, a instalação da bilioteca, baixe o <a href="http://www.slackbuilds.org/">SlackBuild</a> do PHP e todo o conteúdo do diretório, segue o link para o PHP4: <a href="http://ftp.belnet.be/packages/slackware/slackware-11.0/source/n/php/">http://ftp.belnet.be/packages/slackware/slackware-11.0/source/n/php/</a><br />
+Para compilar o PHP é necessário baixar também o pine (<a href="http://ftp.belnet.be/packages/slackware/slackware-11.0/source/n/pine/">http://ftp.belnet.be/packages/slackware/slackware-11.0/source/n/pine/</a>).</p>
+<p>Após baixar todos os pacotes você deve ter uma estrutura semelhante à:</p>
+<pre>&nbsp; |
+</pre>
+:ET

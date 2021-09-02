@@ -1,0 +1,15 @@
+I"�<p>Para quem gosta de um programinha para gerencias à rede sem fio, aqui esta uma excelente dica.</p>
+<p>Até a versão, 12.2 do Slackware, o KDE distribuído junto com a distribuição era o KDE3. Com ele tinha um programa chamado <a title="kwifimanager" href="http://kwifimanager.sourceforge.net/">kwifimanager</a>. Porém, com o upgrade para o KDE4, o kwifimanager não possui suporte para a nova versão do KDE. Com isso um gerenciador para redes wifi faz-se necessário.</p>
+<p>Após, efetuar a instalação do Slackware 13, me deparei com esse problema. Que resolvi de maneira rapida com o pacote WICD.</p>
+<p><a href="http://www.brunorusso.com.br/imagem/wicd-gui.png"><img src="/assets/2009/09/wicd-gui.png" alt="wicd" width="394" height="389" /></a></p>
+<p>O pacote do wicd, ainda está na seção extra do CD/DVD do Slackware. faça a sua instalação com:</p>
+<p><code> installpkg wicd-1.6.2.1-i486-1.txz.</code></p>
+<p>Após efetuar a instalação, execute:</p>
+<p><code><br />
+chmod +x /etc/rc.d/rc.wicd<br />
+</code></p>
+<p>Em seguida, execute:</p>
+<p><code>/etc/rc.d/rc.wicd start</code></p>
+<p>Acesso sue desktop e na systray, deve aparecer o ícone do WICD.</p>
+<p><img src="/assets/2009/09/wicd-tray.png" alt="wicd" /></p>
+:ET

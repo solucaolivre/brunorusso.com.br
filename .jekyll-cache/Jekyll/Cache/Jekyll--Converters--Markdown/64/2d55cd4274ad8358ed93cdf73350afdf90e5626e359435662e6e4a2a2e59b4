@@ -1,0 +1,18 @@
+I"^<p>Escrevi uma pequena documentação sobre o protocolo IPV6, baseada no treinamento on-line do NIC.br.</p>
+<p><em>O IPV6, diferente do IPV4, reserva metade dos bits para endereçamento local. Assim, são possíveis 18.446.744.073.709.551.626 (2^64) redes IPV6 na Internet. Cada uma com a mesma quantodade de dispositivos. </em></p>
+<p>Tentei abordar os principais aspectos aprendidos no treinamento, são eles:</p>
+<ul>
+<li>Vantagens;</li>
+<li>Cabeçalho;</li>
+<li>Endereçamento IPV6;</li>
+<li>Fragmentação de pacotes no IPV6;</li>
+<li>Mudanças na estrutura do DNS;</li>
+<li>QOS;</li>
+<li>Mobilidade;</li>
+<li>Segurança;</li>
+<li>Roteamento;</li>
+<li>Transição.</li>
+</ul>
+<p>Segue o link para ler o artigo na íntegra:</p>
+<p><a title="IPV6" href="http://linux.brunorusso.com.br/doku.php?id=ipv6">http://linux.brunorusso.com.br/doku.php?id=ipv6</a></p>
+:ET

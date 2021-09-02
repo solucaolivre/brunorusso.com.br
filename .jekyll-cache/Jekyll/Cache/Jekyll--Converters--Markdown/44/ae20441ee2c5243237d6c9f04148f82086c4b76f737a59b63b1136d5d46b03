@@ -1,0 +1,68 @@
+I"F<p>Abaixo, estão algumas informações básicas sobre a estrutura do <strong>Banco de Dados</strong> <a href="http://www.oracle.com">Oracle</a>.<img title="oracle" src="/assets/2007/12/oracle.gif" alt="oracle" width="200" height="48" align="right" /></p>
+<blockquote><p>Essas anotações são pessoais, talvez seja difícil você entender...</p></blockquote>
+<p>O Oracle divide-se em duas partes:</p>
+<ol>
+<li><strong>Instância</strong> - área de memória, alocada para o oracle gerenciar as requisições feitas pelos usuários e manipular os Bancos de Dados. É a forma de conexão com o Banco de Dados, apenas um instância é aberta;</li>
+<li><strong>Banco de Dados</strong> - conjunto de arquivos físicos, onde são armazenadas as <em>tabelas</em>, <em>índices</em> e demais objetos do Banco de Dados.</li>
+</ol>
+<p>O <strong>Banco de Dados</strong> é dividido em três arquivos, são eles:</p>
+<ul>
+<li><strong>Datafiles</strong> - Arquivos físicos, armazenam tabelas, índices, etc. É necessário pelo menos um datafile;</li>
+<li><strong>Redo Log File</strong> - Armazena fisicamente as alterações realizadas pelo Oracle, é utilizado como uma espécie de segurança transacional. São necessários pelo menos 2 Red Log File;</li>
+<li><strong>Control File</strong> - Gerenciam e armazenam toda a estrutura do Banco de Daods. É necessário pelo menosum Control File.</li>
+</ul>
+<p><strong>SGA</strong> (System global area) - memória alocada na inicialização, é de fundamental importância para o funcionamento do Banco de Dados. A sua estrutura é a seguinte:</p>
+<ul>
+<li>Shared Pool;</li>
+<li>Database Buffer Cache;</li>
+<li>Redo Log Buffer;</li>
+<li>demais estruturas (lock, gerenciamento de fila, dados estatísticas);</li>
+<li>large pool;</li>
+<li>java pool.</li>
+</ul>
+<p>O <strong>SGA</strong>, possui informações e dados de comtrole para o servidor.<br />
+Para verificar os parâmetros do SGA usa-se o comando:</p>
+<p><code><br />
+&gt;show sga<br />
+</code></p>
+<p><strong>PGA</strong> (Program global area) - memória alocada na inicialização quando o servidor é iniciado, é uma memória não compartilhada. Contêm:</p>
+<ul>
+<li>Área de SORT;</li>
+<li>Informações de Sessão;</li>
+<li>Estado do Cursor;</li>
+<li>Espaço de pilha.</li>
+</ul>
+<p><strong>Segmento de RollBack (undo segment)</strong>, é um objeto físico localizado dentro de um <em>data file</em> do Banco de Dados. Armazena a imagem antiga de uma transação que está sendo executada.</p>
+<p><strong>Conectando com o Banco de Dados</strong></p>
+<p><code><br />
+connect / as sysdba<br />
+</code></p>
+<p>A figura abaixo mostra um exemplo da estrutura organizacional do Oracle.<br />
+<img src="/assets/2007/12/estruturaoracle.png" width="515" height="247" border="0" align="middle" /></p>
+<p>Os comandos abaixo são utilizados para <em>exportar</em> e <em>importar</em> um Banco de Dados, tabela(s) e/ou usuário(s).</p>
+<p><strong>EXPORT</strong></p>
+<p>Exporta as tabelas (tabela1, tabela2 e tabela3)</p>
+<p><code><br />
+$ expdp USUARIO/INSTÂNCIA tables=(tabela1, tabela2, tabela3)<br />
+file=d:banco.dmp<br />
+log=d:banco.log<br />
+</code></p>
+<p>Exporta o Banco de Dados inteiro</p>
+<p><code><br />
+$ expdp USUARIO/INSTÂNCIA full=y<br />
+file=d:banco.dmp<br />
+log=d:banco.log<br />
+</code></p>
+<p>Importa as tabelas (tabela1, tabela2 e tabela3)</p>
+<p><code><br />
+$ impdp USUARIO/INSTÂNCIA tables=(tabela1, tabela2, tabela3)<br />
+file=d:banco.dmp<br />
+log=d:banco.log<br />
+</code></p>
+<p>Exporta o Banco de Dados inteiro</p>
+<p><code><br />
+$ impdp USUARIO/INSTÂNCIA full=y<br />
+file=d:banco.dmp<br />
+log=d:banco.log<br />
+</code></p>
+:ET

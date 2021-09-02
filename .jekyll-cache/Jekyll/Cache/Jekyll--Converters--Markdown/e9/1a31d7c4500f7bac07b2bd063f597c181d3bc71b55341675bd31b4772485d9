@@ -1,0 +1,12 @@
+I"�<p>Nova versão disponível do NagMobile - 3.0.</p>
+<pre>ChangLog
+2010-11-12 Bruno Tadeu Russo &lt;br@brunorusso.com.br&gt;
+ - Version 0.3
+ - Added link to the index.html in the image and the bottom of the
+   page.
+ - A message can be displayed at the top of the page just after the
+   picture with the logo through the BANNER variable set in
+   config.php
+ - added auto refresh every 120 seconds
+</pre>
+:ET

@@ -1,0 +1,9 @@
+I"�<p>Mais um artigo. Dessa vez, explico como instalar e como configurar o <a title="Site Oficial MRTG" href="http://people.ee.ethz.ch/~oetiker/webtools/mrtg/" target="_blank" rel="noopener noreferrer">MRTG</a>.</p>
+<p>Para quem não sabe o que é o MRTG ou o que significa o MRTG, la vai:</p>
+<p><strong>MRTG: MULTI ROUTER TRAFFIC GRAPHER&nbsp;</strong></p>
+<p>Em outras palavras, ele verifica o tráfego de rede (ele pode obter outras informações, como por exemplo: utilização de memório, utilização de CPU e etc) em um determinado equipamento, como por exemplo um roteador, guarda essas informações em um Banco de Dados e cria um relatório com um gráfico.</p>
+<p>Nesse gráfico podemos obter informações minuto à minuto, diárias, semanais, mensais e anuais.</p>
+<p>Veja um exemplo de um gráfico criado pelo MRTG.</p>
+<p><img title="Gráfico criado pelo MRTG" src="/assets/2006/03/192.168.2.1_1-day.png" alt="Gráfico criado pelo MRTG" width="500" height="135" border="0" /></p>
+<p>Segue o <a title="Instalação do MRTG" href="http://www.brunorusso.com.br/?page_id=84" target="_self" rel="noopener noreferrer">link para o Manual</a>.&nbsp;</p>
+:ET

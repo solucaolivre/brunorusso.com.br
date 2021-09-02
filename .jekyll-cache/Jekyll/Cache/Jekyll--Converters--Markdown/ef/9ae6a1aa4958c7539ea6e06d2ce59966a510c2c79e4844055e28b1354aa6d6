@@ -1,0 +1,6 @@
+I"�<p>Em determinados momentos é necessário redirecionar uma determinada página para uma outra página.</p>
+<p>Isso pode ser feito facilmente com o PHP, através da função <a title="header" href="http://br2.php.net/manual/en/function.header.php">header</a>, da seguinte forma:</p>
+<blockquote><p>&lt;?php<br />
+header ("location: https://www.brunorusso.com.br");<br />
+?&gt;</p></blockquote>
+:ET

@@ -1,0 +1,107 @@
+I"�<p>Este artigo foi importado do site http://linux.brunorusso.com.br, que foi desativado. Este artigo, foi originalmente publicado em: 22/11/2009. Apesar da “idade” deste artigo, o seu conceito ainda é válido.</p>
+<h2 class="sectionedit1"><a id="introducao" name="introducao"></a>Introdução</h2>
+<div class="level2">
+<p>O Slackware é a distribuição mais antiga em atividade, possui um conceito muito interessante quando comparada às demais distribuições, que é o conceito <strong><acronym title="Keep it simple stupid">KISS</acronym></strong> (Keep it simple, stupid). O slackware é desenvolvido por um pequeno grupo de pessoas (até onde eu sei são 8 pessoas ao todo que participam do desenvolvimento da distribuição). Devido a esse e outros motivos, o Slackware não possui uma quantidade grande de pacotes, principalmente pacotes para programas pequenos, ou que não são tão essenciais. Ao mesmo tempo, o Slackware possui uma facilidade muito grande para a criação de seus pacotes, que são criados através de simples scripts denominados de SlackBuilds.</p>
+<p>Muitas pessoas, criam seus próprios pacotes através do SlackBuilds.</p>
+<p>Em 2006 surgiu o site slackbuilds.org, que nada mais é que um repositório de SlackBuilds prontos para serem utilizados, e o mais importante é que os SlackBuilds são validados, ou seja, são 100% confiáveis, visto que irá gerar o pacote é você. Não há pacote pronto!</p>
+<p>Atualmente, o projeto SlackBuilds.org é mantido por um pequeno grupo de pessoas. Esse pequeno grupo, avalia os scripts SlackBuild dos pacotes enviados por diversos usuários do mundo todo. Assim que os scripts enviados passam pela análise da equipe, são disponibilizados para os demais usuários.</p>
+</div>
+<h2 class="sectionedit2"><a id="como_o_slackbuils_e_organizado" name="como_o_slackbuils_e_organizado"></a>Como o Slackbuils é organizado</h2>
+<div class="level2">
+<p>Atualmente o repositório oficial do Slackbuilds.org, possui um pouco mais de 70MB de scripts, prontos para serem utilizados. Os scripts são organizados nos seguintes grupos:</p>
+<ul>
+<li class="level1">
+<div class="li">Academic</div>
+</li>
+<li class="level1">
+<div class="li">Accessibility</div>
+</li>
+<li class="level1">
+<div class="li">Audio</div>
+</li>
+<li class="level1">
+<div class="li">Business</div>
+</li>
+<li class="level1">
+<div class="li">Desktop</div>
+</li>
+<li class="level1">
+<div class="li">Development</div>
+</li>
+<li class="level1">
+<div class="li">Games</div>
+</li>
+<li class="level1">
+<div class="li">Graphics</div>
+</li>
+<li class="level1">
+<div class="li">Libraries</div>
+</li>
+<li class="level1">
+<div class="li">Misc</div>
+</li>
+<li class="level1">
+<div class="li">Multimedia</div>
+</li>
+<li class="level1">
+<div class="li">Network</div>
+</li>
+<li class="level1">
+<div class="li">Office</div>
+</li>
+<li class="level1">
+<div class="li">System</div>
+</li>
+</ul>
+<p>Em cada grupo podemos encontrar um ou mais scripts prontos, organizados da seguinte forma:</p>
+<pre class="code">./pacote
+  |-- README
+  |-- pacote.info
+  |-- pacote.SlackBuild
+  |-- pacote.desktop
+  |-- pacote.png
+  |-- slack-desc</pre>
+<p>onde,</p>
+<ul>
+<li class="level1">
+<div class="li">README, possui informações básicas sobre o pacote, é importante ler este arquivo antes de iniciar a criação do pacote.</div>
+</li>
+<li class="level1">
+<div class="li">pacote.info, possui informações que serão utilizadas pelo script de criação do pacote, além de informações sobre o autor do pacote e o responsável pela aprovação dos pacotes.</div>
+</li>
+<li class="level1">
+<div class="li">pacote.desktop, informações para que um ícone do programa seja adicionado ao menu do ambiente gráfico.</div>
+</li>
+<li class="level1">
+<div class="li">pacote.png, ícone da imagem que será utilizada para representar o programa no menu gráfico.</div>
+</li>
+<li class="level1">
+<div class="li">slack-desc, arquivo contendo as informações do pacote para serem exibidas durante a instalação.</div>
+</li>
+</ul>
+<p>Alguns pacotes possuem outros arquivos, como por exemplo o doinst.sh. Tudo isso depende do pacote! ;)</p>
+</div>
+<h2 class="sectionedit3"><a id="criando_um_pacote_atraves_do_slackbuilds" name="criando_um_pacote_atraves_do_slackbuilds"></a>Criando um pacote através do slackbuilds</h2>
+<div class="level2">
+<p>Para criar um pacote, através dos scripts do Slackbuilds, execute os passos a seguir.</p>
+<p><em>Neste exemplo, vamos criar o pacote do aplicativo <strong>lyx</strong></em></p>
+<p>1. Primeiro vamos baixar o script, dentro de um diretório ~/tmp, para criar o pacote.</p>
+<pre class="code">mkdir ~/tmp
+cd ~/tmp
+wget http://slackbuilds.org/slackbuilds/13.0/office/lyx.tar.gz</pre>
+<p>2. Agora vamos descompactar o arquivo baixado.</p>
+<pre class="code">tar xzvf lyx.tar.gx
+cd lyx</pre>
+<p>3. Agora é preciso baixar o pacote (código-fonte) do programa, no nosso caso o lyx.</p>
+<pre class="code">wget ftp://ftp.lyx.org/pub/lyx/stable/1.6.x/lyx-1.6.3.tar.gz</pre>
+<p>4. Agora é necessário conceder permissão de execução para o arquivo lyx.SlackBuild</p>
+<pre class="code">chmod +x lyx.SlackBuild</pre>
+<p>5. Tudo pronto para o início da criação do pacote. Para iniciar, basta executar:</p>
+<pre class="code">./lyx.SlackBuild</pre>
+<p>Se tudo der certo, será criado um arquivo dentro do diretório /tmp, com o nome</p>
+<pre class="code">lyx-1.6.3-x86_64-1_SBo.tgz</pre>
+<p>7. Para instalar o pacote, execute.</p>
+<pre class="code">installpkg /tmp/lyx-1.6.3-x86_64-1_SBo.tgz</pre>
+<p>Pronto! Pacote criado e 100% compatível com a distribuição instalado em seu sistema.</p>
+</div>
+:ET

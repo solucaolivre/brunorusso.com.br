@@ -1,0 +1,8 @@
+I"�<p>Eita! <a title="Segunda-Feira: Brava" href="http://www.brunorusso.com.br/?p=27" target="_self" rel="noopener noreferrer">Segunda-feira é brava</a>, como sempre!<br />
+Imagine só: Segunda-feira, chuva pela manhã. Trânsito (algo normal na cidade de São Paulo), mas trânsito maior, devido à chuva.<br />
+Ao chegar na empresa verifica se todos os Servidores estão Vivos. Eles estão, porém (como nada pode ocorrer tão perfeitamente) uma partição de um server está somente como Leitura. Coisa boba! Esse servidor é apenas o Servidor de e-mail.<br />
+Ao fazer uma verificação, um pouco mais profunda, chego a conclusão (de acordo com as mensagens do Kernel) de que a Partição está com badblock.<br />
+Maravilhas, como o servidor secundário ainda não está no ar, logo é necessário providenciar um outro (servidor primario) para substituir esse. Bom já que é para ser uma segunda-feira brava, então vamos facilitar a vida e instalar o Slackware nesse Servidor.<br />
+Cerca de 6 horas sem e-mail, eu acho muito, mas foi o tempo que levou para preparar a máquina e voltar o backup. Tudo bem ela não tem tudo que a outra tinha, mas pelo menos tá funcionando. :)<br />
+Agora é esperar e ver se terça-feira fica um pouco melhor!</p>
+:ET

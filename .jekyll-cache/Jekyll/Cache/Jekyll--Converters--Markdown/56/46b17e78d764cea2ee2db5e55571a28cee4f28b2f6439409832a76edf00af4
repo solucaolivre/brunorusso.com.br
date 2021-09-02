@@ -1,0 +1,12 @@
+I"|<p>Ao tentar instalar o <a href="http://en.wikipedia.org/wiki/OCS_Inventory" target="_blank" rel="noopener noreferrer">OCS Inventory</a> em uma máquina <a href="http://en.wikipedia.org/wiki/Centos" target="_blank" rel="noopener noreferrer">CentOS</a> com uma instalação mínina, a seguinte mensagem de erro é apresentada:</p>
+<pre> +----------------------------------------------------------+
+ | Checking for PERL Interpreter... |
+ +----------------------------------------------------------+
+ PERL Interpreter not found !
+ OCS Inventory NG is not able to work without PERL Interpreter.
+ Setup manually PERL first.
+ Installation aborted !</pre>
+<p>Porém, o pacote <strong>PERL</strong> está instalado! Esse erro pode ocorrer devido a falta de um pocote chamado: <strong>which</strong>.</p>
+<p>Para resolver esse problema, basta instalar o pacote.</p>
+<p><em>#yum install which</em></p>
+:ET

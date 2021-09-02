@@ -1,0 +1,11 @@
+I"�<p><img class="alignleft" src="/assets/2009/01/beastie.png" alt="Freebsd" width="178" height="196" />Lançado, oficialmente o FreeBSD 7.1.</p>
+<p>Algumas novidades são:</p>
+<ul>
+<li>O Ule scheduler é agora o padrão no kernel GENERIC para arquiteturas i386 e amd64. O agendador Ule multicondutores melhora significativamente o desempenho nos sistemas de muitas cargas.</li>
+<li>Suporte para usar DTrace dentro do kernel foi importado de OpenSolaris. DTrace é traçado um quadro global dinâmico.</li>
+<li>Um novo e muito melhorado NFS-Lock Manager (NLM) cliente.</li>
+<li>Alterações no Boot loader permitem, entre outras coisas, iniciar o sistema a partir de dispositivos USB.</li>
+<li>KDE atualizado para 3.5.10, GNOME atualizado para 2.22.3.</li>
+</ul>
+<p>Para ver o ChangeLog dessa versão acesse o <a title="Freebsd 7.1" href="http://www.freebsd.org/releases/7.1R/announce.html">site oficial</a>.</p>
+:ET

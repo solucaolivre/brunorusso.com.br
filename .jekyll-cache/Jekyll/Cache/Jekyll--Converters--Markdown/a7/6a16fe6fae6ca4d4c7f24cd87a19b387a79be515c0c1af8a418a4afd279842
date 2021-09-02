@@ -1,0 +1,8 @@
+I"<p>O MSSQL 2000/2005 e Oracle n&#227;o possuem um comando simples como o comando do mysql</p>
+<blockquote><p>show databases;</p></blockquote>
+<p>Onde voc&#234; visualiza todas as Bases de Dados existentes no Servidor, porém ele possui o comando, que faz o mesmo...</p>
+<p>SQL 2000/2005</p>
+<blockquote><p>SELECT [name] FROM [master].[dbo].[sysdatabases] order by name</p></blockquote>
+<p>Oracle, o comando abaixo pode ajudar bastante</p>
+<blockquote><p>SELECT username from all_users order by username</p></blockquote>
+:ET

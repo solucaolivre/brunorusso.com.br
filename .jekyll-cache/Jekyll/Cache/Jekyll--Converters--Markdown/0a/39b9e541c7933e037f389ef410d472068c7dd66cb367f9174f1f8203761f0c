@@ -1,0 +1,20 @@
+I"�<p>Um comando muito útil para extrair informações do Active Directory é o <strong>DSQUERY (</strong><a href="http://technet.microsoft.com/en-us/library/cc732952(v=ws.10).aspx" target="_blank" rel="noopener noreferrer">http://technet.microsoft.com/en-us/library/cc732952(v=ws.10).aspx</a>).</p>
+<p>Com ele é possível realizar consultas em diversos tipos de objetos no AD, tais como:</p>
+<ul>
+<li>Computadores</li>
+<li>Contatos</li>
+<li>Usuários</li>
+<li>Grupos</li>
+<li>Servidores</li>
+<li>Site</li>
+<li>...</li>
+</ul>
+<p>Mas, ele é um pouco chato, pois a sintaxe é muito complexa, mas com o tempo você acostuma.</p>
+<p>Para se ter uma idéia de como essa sintaxe é "chata", veja o exemplo abaixo:</p>
+<blockquote><p>dsquery * -filter "&amp;(objectClass=User)(scriptPath=*)" -scope subtree -attr displayName scriptPath &gt;; C:logon_script.txt</p></blockquote>
+<p>Nesta consulta, foi utilizada a opção dsquery *, que é utilizada para fazer qualquer consulta com opções de filtro.</p>
+<p>O filtro utilizado nesta foram os parâmetros ObjectClass e scriptPath, onde filtra apenas os usuários e qualquer login script.</p>
+<p>O resultado deste comando é direcionado para o arquivo C:logon_script.txt</p>
+<p>Dica obtida em:<br />
+<a href="http://www.winvistatips.com/ldap-query-specific-logon-script-t757244.html">Http://www.winvistatips.com/ldap-query-specific-logon-script-t757244.html </a></p>
+:ET

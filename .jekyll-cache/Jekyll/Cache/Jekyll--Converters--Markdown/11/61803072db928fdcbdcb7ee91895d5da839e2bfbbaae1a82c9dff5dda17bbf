@@ -1,0 +1,8 @@
+I" <p> Algumas vezes é necessário utilizar o Windows, e algumas dessas vezes, é necessário automatizar algumas tarefas.</p>
+<p>Vou resumir: Imagine que voc&#234; possui um arquivo de LOTE <strong>(.BAT)</strong>, e nesse arquivo voc&#234; precisa por exemplo criar uma pasta ou um arquivo que contenha a data do dia.</p>
+<p>Isso pode ser automatizado da seguinte maneira.</p>
+<p><code><br />
+md NOME-PASTA_%date:~4,220080121:~7,220080121:~12,2%<br />
+</code></p>
+<p>O exemplo acima, pode ser implmentado facilmente em um script de backup.</p>
+:ET

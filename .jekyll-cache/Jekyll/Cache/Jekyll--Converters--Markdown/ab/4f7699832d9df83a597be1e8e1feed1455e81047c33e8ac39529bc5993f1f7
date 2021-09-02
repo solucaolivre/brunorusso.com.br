@@ -1,0 +1,11 @@
+I"�<p>Sou usuário de <a href="http://www.kernel.org/">Linux</a>, desde 1996 quando instalei pela primeira vez uma versão do Red Hat (nem lembro mais qual versão era). O tempo passou Linux acabou virando o Sistema Operacional definitivo na minha máquina.</p>
+<p>O primeiro contato que tive através do Linux foi o seu modo de comando (isso mesmo uma tela preta com um monte de caracteres brancos). Fiquei impressionado com as diversas funcionalidades que uma tela preta podia me oferecer, como por exemplo: acesso à internet (links e lynx), clientes de email (mutt, pine) enfim uma grande variedade de programs que conseguia suprir todas as minhas necessidades.</p>
+<p>Com o tempo, descobri ainda mais vantagens e características de utilizar o modo texto. Uma que não tem como negar é a velocidade que você consegue trabalhar. Telas "não" precisam ser formadas e apresentadas para que a informação fique visivel. A informação apenas aparece. ;)</p>
+<p>O momento agora é de <a href="http://fifaworldcup.yahoo.com/06/en/">copa do mundo</a>. As imagens captadas pelas lentes dos equipamentos de última geração de fotógrafos e cinegrafistas revelam um verdadeiro espetáculo. Mas para poder ter toda essa qualidade de imagem (vídeo) é necessário ter uma boa conexão. :(</p>
+<p>Mas para os fãs do mundo "texto" existe um servidor que disponibiliza os jogos da copa "ao vivo" em modo <a href="http://en.wikipedia.org/wiki/Ascii">ASCII</a>. Eu poderia citar muitos exemplos de sites (<a href="http://aurelio.net/doc/coluna/coluna-06.html">aurélio.net</a>, <a href="http://www.ascii-art.de/">ascii-art</a> etc etc etc) que possuem imagens dicas de como utilizar e como criar imagens através de caracteres ascii. Agora o que eu nunca havia visto era um stream "ao vivo" feito com caracteres ascii.</p>
+<p>Para acreditar melhor, veja só essas imagens que consegui captar: são o máximo!</p>
+<p><img src="/assets/2006/06/wget3.png" border="0" align="middle" /><br />
+<img src="/assets/2006/06/wget4.png" border="0" align="middle" /></p>
+<p>Quem quiser assistir os jogos no formato acima, é só tentar assistir através de telnet no endereço:</p>
+<p><em>telnet ascii-wm.net 2006</em></p>
+:ET

@@ -1,0 +1,48 @@
+I")	<h2 id="infraestrutura-como-código">Infraestrutura como código</h2>
+
+<p>Qual ferramenta você utiliza para provisionar sua infraestrutura? Se a resposta for a criação de uma solicitação no sistema de atendimento, você está ultrapassado!</p>
+
+<p>Neste momento você deve estar querendo se contradizer: “mas eu preciso ter controle”.</p>
+
+<p>Que controle? Um Ticket, o número de uma solicitação? Não é com um número que você terá o controle que deseja.</p>
+
+<p>Atualmente a grande maioria das soluções permitem o seu uso através de API. E o uso de APIs, possibilita a criação de inúmeras automações. Por exemplo, você pode: criar uma regra em um firewall, configurar um load balancer, criar um repositório no Github ou no gitlab, entre muitas outras coisas.</p>
+
+<p>Porém, com a grande adoção da computação em nuvem, a utilização de códigos para provisionar a infraestrutura, vem cada vez mais sendo popular. É isso é muito bom!</p>
+
+<p>Atualmente, existem algumas ferramentas que podem ser usadas na automação da infraestrutura. São elas:</p>
+
+<ol>
+  <li>Ansible</li>
+  <li>Terraform</li>
+  <li>Chef</li>
+  <li>Puppet</li>
+  <li>AWS  Cloudformation</li>
+  <li>Azure Resource Manager</li>
+  <li>Google Cloud Deployment Manager</li>
+</ol>
+
+<p>Nenhuma solução acima é mágica e vai atender 100% às suas necessidades. Porém, a junção de pelo menos duas pode te ajudar a resolver grande parte dos seus problemas.</p>
+
+<p>Usar 3 soluções podem resolver 100% dos problemas? Não, pelo menos na minha opinião. Pois o uso de muitas soluções gera um outro “custo” que é a gestão das ferramentas.</p>
+
+<p>As soluções 5, 6 e 7 são dedicadas aos seus provedores e acabam não sendo soluções agnosticas. Adoro essa palavra…</p>
+
+<p>Atualmente a solução que tem mais se destacado no mercado é o terraform. A linguagem utilizada no terraform é muito intuitiva e declarativa, ou seja, com pequenas instruções você consegue criar seu recurso.</p>
+
+<p>Além da facilidade no uso, o terraform possui integração com diversas soluções, como por exemplo:</p>
+
+<ul>
+  <li>AWS</li>
+  <li>Azure</li>
+  <li>GCP</li>
+  <li>VMware</li>
+  <li>Kubernetes</li>
+  <li>Oracle cloud</li>
+  <li>Cisco ASA</li>
+  <li>Github</li>
+  <li>Datadog</li>
+  <li>IBM Cloud</li>
+  <li>e diversos outros</li>
+</ul>
+:ET

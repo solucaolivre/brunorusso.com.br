@@ -1,0 +1,4 @@
+I"+<p>Aprenda a instalar o dicionário para o Português brasileiro no Slackware, utilizado pelo Ispell.</p>
+<p>O ispell é uma das mais usadas ferramentas para auxiliar na correção de textos. O ispell não é um dicionário, ele apenas utiliza algumas regras para onde verifica se uma palavra digitada está errada ou não!</p>
+<p>&nbsp;Esta ferramenta já vem instalada por padrão em quase todas as distribuições linux. No Slackware o ispell vem instalado, porêm não possui dicionário para o português brasileiro. E nesse artigo você aprederá a instalar o dicionário para esse idioma <img title="emoticon" src="/assets/2005/12/wink.gif" alt="emoticon" border="0" />. O manual pode ser visto no <a href="http://www.brunorusso.com.br/?page_id=41" target="_self" rel="noopener noreferrer">link</a>.</p>
+:ET

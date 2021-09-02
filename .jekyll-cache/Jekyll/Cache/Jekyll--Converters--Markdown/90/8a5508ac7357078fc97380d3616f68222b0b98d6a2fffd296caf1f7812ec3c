@@ -1,0 +1,27 @@
+I"�
+<p>Há cerca de 1 ano e pouco tive um grande problema com uma rede (WAN) Microsoft Windows. Esse problema me custou cerca de 40 horas initerrúptas de trabalho :P</p>
+<p>Até descobrir que o problema foi devido a uma atualização automática feita pelo Servidor e por todas as estações. O que ocorreu foi mais ou menos o seguinte:</p>
+<p>A atualização automática dos Servidores Windows 2000, estavam ativadas, com isso qualquer KB?????? era feita automaticamente. Porém o servidor nunca era reinicializado, devido a disponibilidade que ele garante aos serviços que disponibiliza. Porém um belo dia ele foi reinicializado e para a surpresa toda a rede WAN, parou de funcionar.</p>
+<p>Detalhe básico, essa atualização acabou com todos os tipos de acesso: Banco de Dados, Impressora, Arquivos compartilhados, etc. MAs até descobrir a causa do problema...lá se foi um dia, uma noite e mais um dia inteiro de Serviço.</p>
+<p>Causa do problema descoberto, temos que descobrir uma solução!</p>
+<p>Em contato com um amigo, que trabalha na própria Microsoft, ele me deu algumas dicas a mais importante é:<br />
+<strong>"Nunca faça atualizações de KB?????? em um Servidor de Produção. Apenas aplique os famosos Service Pack"</strong><br />
+Lição aprendida. Porém, vamos levando o problema com a barriga até descobrir como solucionar. Mas o tempo é curto para poder parar e descobrir uma solução para o mesmo.<br />
+Agora finalmente, cerca de um ano depois, descobria a solução.<br />
+A atualização que ocasionava o problema era a: <a href="http://support.microsoft.com/kb/893066">KB893066</a>. Essa atualização era necessária devido uma falta de segurança no protocolo TCP/IP.<br />
+A própria página dessa atualização possui vários outros links de como solucionar o problema ocasionado por essa atualização.<br />
+Alguns desses links estão no final deste texto.<br />
+A soluçao é simples, porém nem o suporte oficial conseguiu me ajudar. :(<br />
+Veja como resolver (é necessário fazer algumas alterações no registro, CUIDADO!!!):<br />
+em..<br />
+<em>HKEY_LOCAL_MACHINESYSTEMCurrentControlSetServicesTcpipParameters</em><br />
+cria-se uma nova chave com o nome:<br />
+<em>TcpWindowSize</em> e com o valor: <strong>17520</strong><br />
+Além dessa chave é necessário criar uma segunda com o nome:<br />
+<em>EnablePMTUBHDetect</em> com valor: <strong>1</strong></p>
+<p>Feito isso tudo volta a funcionar. :D</p>
+<p><strong>Links</strong></p>
+<p><a href="http://support.microsoft.com/kb/893066">http://support.microsoft.com/kb/893066</a></p>
+<p><a href="http://support.microsoft.com/kb/q263088/"> http://support.microsoft.com/kb/q263088/</a></p>
+<p><a href="http://support.microsoft.com/kb/890345">http://support.microsoft.com/kb/890345</a></p>
+:ET

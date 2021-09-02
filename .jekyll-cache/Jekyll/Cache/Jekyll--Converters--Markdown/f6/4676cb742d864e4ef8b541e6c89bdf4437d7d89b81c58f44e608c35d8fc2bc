@@ -1,0 +1,5 @@
+I"Ž<p>$VALOR = split("@", "bruno@interprint", 1);</p>
+<p>ECHO $VALOR</p>
+<p>bruno</p>
+<blockquote><p> Foi bom enquanto durou!!!</p></blockquote>
+:ET

@@ -1,0 +1,14 @@
+I"�<p>Ao tentar fazer a conex&#227;o com o Servidor de Banco de Dados MSSQL Server, ocorre o erro, com o código 18452.</p>
+<blockquote><p>Connection failed:<br />
+SQLState: '28000'<br />
+SQL Server Error: 18452<br />
+[Microsoft][ODBC SQL Server Driver][SQL Server]Login failed for user 'gbadmin'. Reason: Not associated with a trusted SQL Server connection</p></blockquote>
+<p>Este erro ocorre devido ao meio de autenticaç&#227;o escolhido durante a instalaç&#227;o do MSSQL.</p>
+<p>Ao instalar o MSSQL, existem dois métodos de autenticaç&#227;o:</p>
+<ul>
+<li>Windows Authentication Mode;</li>
+<li>Mixed Mode (Windows Authentication Mode and SQL Server Authentication).</li>
+</ul>
+<p>Se voc&#234; escolheu o primeiro método, para realizar a autenticaç&#227;o, e tentar fazer a conex&#227;o com um usuário Local do SQL, o erro acima irá ocorrer.</p>
+<p>Para resolver, altere o modo de autenticaç&#227;o para <strong>Mixed Mode</strong>.</p>
+:ET

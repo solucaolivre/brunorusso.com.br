@@ -1,0 +1,16 @@
+I"�<p>&nbsp;</p>
+<p>Desde quando come&ccedil;ei a estudar &quot;informática&quot;, sempre escuto &agrave;quela conversa:</p>
+<p align="center"><strong>&quot;Todo sistema precisa ser bem estruturado, ter uma boa análise é fundamental. Além disso é necessário fazer a documenta&ccedil;&atilde;o completa do sistema&quot;.</strong></p>
+<p>Isso é lindo! O problema é colocar tudo isso em prática.</p>
+<ol>
+<li>A estrutura e análise de um programa nunca vi ser feita de forma cuidadosa e segura. Geralmente ocorre uma ou duas reuni&otilde;es com o cliente e pronto o sistema já come&ccedil;a a ser feito. Hpje em dia, muitos sistemas s&atilde;o feitos no esquema <u>&quot;for&ccedil;a bruta&quot;</u> (n&atilde;o me recorndo o nome correto, agora), ou seja, uma pessoa tem a idéia &agrave;s vezes passa para uma segunda pessoa realizar, colocar em prática essa idéia, sem antes mesmo de analizar alguns pontos, como por exemplo:</li>
+</ol>
+<ol>
+<li>Qual banco de dados vou utilizar? Geralmente, utiliza-se o que já possui pois é mais fácil e nada a mais precisará ser feito.</li>
+<li>Qual a linguagem que o sistema será feito? Como geralmente, quem tem a idéia n&atilde;o sabe fazer uma linha de programa&ccedil;&atilde;o, quem decide o que usar é &agrave;quela segunda pessoa, quem vai fazer o sistema.</li>
+</ol>
+<li>Documenta&ccedil;&atilde;o! Nunca vi um programador documentar <strong>TUDO</strong>, veja bem eu disse <strong>TUDO</strong>. Muitas vezes, quando o prazo para o sistema entrar no ar, a documenta&ccedil;&atilde;o é deixada de lado.</li>
+<p>&nbsp;</p>
+<p>A teoria de elabora&ccedil;&atilde;o de um sistema é muito bem feita o problema vem a prática (como &agrave;quele velho ditado: a teoria é uma coisa a prática é outra).</p>
+<p>&nbsp;</p>
+:ET
