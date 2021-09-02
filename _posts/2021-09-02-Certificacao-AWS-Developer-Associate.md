@@ -1,23 +1,24 @@
 ---
-title: Últimos Treinamentos
+title: Certificação AWS Developer Associate
 author: Bruno Russo
-date: 2021-06-06 00:00 +0300
-categories: [Blogging, governança, Gestão, treinamento, Cloud]
-tags: [Gestão, Governança, AWS]
+date: 2021-09-02 13:00 +0300
+categories: [Cloud, AWS]
+tags: [AWS, Cloud, associate, certificação]
 layout: post
 type: post
 ---
-# **Últimos treinamentos realizados**
+# **Certificação AWS Developer Associate**
+Após um período de estudos, dedicação e compreemsão dos familiares, mais uma conquista. **AWS Certified Developer - Associate** conquistada!
 
-**Amazon DynamoDB Service Primer**
+**AWS Certified Developer – Associate**
+![Certificado](https://brunorusso.com.br/assets/aws-developer-associate.png)
 
-# **Certificado**
-![Certificado](https://brunorusso.com.br/assets/Amazon-DynamoDB-Service-Primer.png)
 
-**Exam Readiness: AWS Certified Developer – Associate (Digital) (Portuguese)**
-![Certificado](https://brunorusso.com.br/assets/Exam-Readiness-AWS-Certified-Developer–Associate.png)
+## **Recursos utilizados para esta conquista**
 
-# **Referências**
+1. Treinamentos da Udemy
+1.1. [Certificação AWS Desenvolvedor - Associate - 2021](https://www.udemy.com/share/101sHG3@QjD9p3N81Aro7mYKDgRi0-O3fvzJBYYNICs88G2uE9Qgw7hwc4pasqffk9eFFvlw/)
+1.2. [AWS Certified Developer Associate Exam Training 2021 [NEW]](https://www.udemy.com/share/102Q1e3@EZ6GyA1nYJHBEsMbi9VtA3Qpf4bXK-ZzC6aYRBU1bTpliD8zh8PJYC8zvEEJQt1Y/
+)
+2. Meu resumo para a prova - [PDF](meu-resumo-para-prova-developer-associate.pdf)
 
-1. [Por onde começar em cloud computing?](https://brunorusso.com.br/2020/09/27/por-onde-comecar-em-cloud-computing/)
-2. [Como ter sucesso com Cloud Computing](https://brunorusso.com.br/2020/08/01/como-ter-sucesso-com-cloud-computing/)
