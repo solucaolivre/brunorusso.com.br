@@ -7,7 +7,7 @@ tags: [AWS, Cloud, associate, certificação]
 layout: post
 type: post
 ---
-# **Certificação AWS Developer Associate**
+
 Após um período de estudos, dedicação e compreemsão dos familiares, mais uma conquista. **AWS Certified Developer - Associate** conquistada!
 
 **AWS Certified Developer – Associate**
@@ -17,8 +17,8 @@ Após um período de estudos, dedicação e compreemsão dos familiares, mais um
 ## **Recursos utilizados para esta conquista**
 
 1. Treinamentos da Udemy
-   1.1. [Certificação AWS Desenvolvedor - Associate - 2021](https://www.udemy.com/share/101sHG3@QjD9p3N81Aro7mYKDgRi0-O3fvzJBYYNICs88G2uE9Qgw7hwc4pasqffk9eFFvlw/)
-   1.2. [AWS Certified Developer Associate Exam Training 2021 [NEW]](https://www.udemy.com/share/102Q1e3@EZ6GyA1nYJHBEsMbi9VtA3Qpf4bXK-ZzC6aYRBU1bTpliD8zh8PJYC8zvEEJQt1Y/
+   1. [Certificação AWS Desenvolvedor - Associate - 2021](https://www.udemy.com/share/101sHG3@QjD9p3N81Aro7mYKDgRi0-O3fvzJBYYNICs88G2uE9Qgw7hwc4pasqffk9eFFvlw/)
+   2. [AWS Certified Developer Associate Exam Training 2021 [NEW]](https://www.udemy.com/share/102Q1e3@EZ6GyA1nYJHBEsMbi9VtA3Qpf4bXK-ZzC6aYRBU1bTpliD8zh8PJYC8zvEEJQt1Y/
 )
 2. Meu resumo para a prova - [PDF](https://www.brunorusso.com.br/assets/meu-resumo-para-prova-developer-associate.pdf)
 3. Site oficial. Sempre consulte o site oficial https://aws.amazon.com/pt/certification/certified-developer-associate/?ch=sec&sec=rmg&d=1
