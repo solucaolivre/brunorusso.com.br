@@ -24,4 +24,4 @@ The course concludes by presenting you with scenarios and challenging you to ide
 Informações sobre o treinamento [https://www.aws.training/Details/InstructorLedTraining?id=79576](https://www.aws.training/Details/InstructorLedTraining?id=79576).
 
 **Advanced Architecting on AWS**
-![Certificado](https://www.brunorusso.com.br/assets/Treinamento-Advanced-Architecting-on-AWS.png)
+![Certificado](https://brunorusso.com.br/assets/Treinamento-Advanced-Architecting-on-AWS.png)
