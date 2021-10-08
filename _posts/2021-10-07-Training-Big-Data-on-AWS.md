@@ -8,9 +8,9 @@ layout: post
 type: post
 ---
 
-Last week, I'd oportunnity in participate one more AWS oficial training, sponsored by company.
+This week, I’d opportunity to participate in one more AWS official training, sponsored by the company.
 
-The course is: **Big Data on AWS**.
+The course: **Big Data on AWS**.
 
 Abou the course: 
 Big Data on AWS introduces you to cloud-based big data solutions such as Amazon Elastic MapReduce (EMR), Amazon Redshift, Amazon Kinesis and the rest of the AWS big data platform. In this course, we show you how to use Amazon EMR to process data using the broad ecosystem of Hadoop tools like Hive and Hue. We also teach you how to create big data environments, work with Amazon DynamoDB, Amazon Redshift, Amazon QuickSight, Amazon Athena and Amazon Kinesis, and leverage best practices to design big data environments for security and cost-effectiveness.
