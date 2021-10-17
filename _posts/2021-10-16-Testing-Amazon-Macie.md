@@ -47,7 +47,9 @@ By default, Amazon Macie identifies a lot of sensitive data, but in this test Iâ
 2. Enable Amazon Macie
     1. Look instructions to enable in this link: [https://docs.aws.amazon.com/macie/latest/user/getting-started.html](https://docs.aws.amazon.com/macie/latest/user/getting-started.html)
     2. After enable, I see this result:
+
 ![Amazon Macie](https://brunorusso.com.br/assets/macie/image2.png)
+
     3. Look that:
         1. The Bucket is not public
         2. The bucket is with encryption enabled
@@ -60,26 +62,41 @@ By default, Amazon Macie identifies a lot of sensitive data, but in this test Iâ
     2. REGEX, used to detect CPF is: ([0-9]{2}[\.]?[0-9]{3}[\.]?[0-9]{3}[\/]?[0-9]{4}[-]?[0-9]{2})|([0-9]{3}[\.]?[0-9]{3}[\.]?[0-9]{3}[-]?[0-9]{2})
 
 ![Amazon Macie](https://brunorusso.com.br/assets/macie/image6.png)
+
 ![Amazon Macie](https://brunorusso.com.br/assets/macie/image8.png)
+
 5. Create a job to discover sensitive data
+
 ![Amazon Macie](https://brunorusso.com.br/assets/macie/image4.png)
+
 6. Now, the job created is running
+
 ![Amazon Macie](https://brunorusso.com.br/assets/macie/image7.png)
+
 7. Is necessary wait some minutes for job complete
 
 8. After 11 minutes the job was completed
+
 ![Amazon Macie](https://brunorusso.com.br/assets/macie/image10.png)
+
 9. The results can see on Summary menu
+
 ![Amazon Macie](https://brunorusso.com.br/assets/macie/image11.png)
+
 10. Look in Top finding types are three types
     1. SensitiveData:S3Object/Personal	
     2. SensitiveData:S3Object/CustomIdentifier	
     3. SensitiveData:S3Object/Multiple	
 11. The file clients.txt have sensitive information and identified by REGEX created on step 4
+
 ![Amazon Macie](https://brunorusso.com.br/assets/macie/image12.png)
+
 12. The occurrences can see 
+
 ![Amazon Macie](https://brunorusso.com.br/assets/macie/image9.png)
+
 13. Look the file content do check information
+
 ![Amazon Macie](https://brunorusso.com.br/assets/macie/image3.png)
 
 ## Warning!
