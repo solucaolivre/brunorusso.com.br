@@ -60,7 +60,7 @@ By default, Amazon Macie identifies a lot of sensitive data, but in this test Iâ
     2. REGEX, used to detect CPF is: ([0-9]{2}[\.]?[0-9]{3}[\.]?[0-9]{3}[\/]?[0-9]{4}[-]?[0-9]{2})|([0-9]{3}[\.]?[0-9]{3}[\.]?[0-9]{3}[-]?[0-9]{2})
 
 ![Amazon Macie](https://brunorusso.com.br/assets/macie/image6.png)
-![Amazon Macie](https://brunorusso.com.br/assets/macie/image4.png)
+![Amazon Macie](https://brunorusso.com.br/assets/macie/image8.png)
 5. Create a job to discover sensitive data
 ![Amazon Macie](https://brunorusso.com.br/assets/macie/image7.png)
 6. Now, the job created is running
