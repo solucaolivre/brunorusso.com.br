@@ -62,9 +62,9 @@ By default, Amazon Macie identifies a lot of sensitive data, but in this test Iâ
 ![Amazon Macie](https://brunorusso.com.br/assets/macie/image6.png)
 ![Amazon Macie](https://brunorusso.com.br/assets/macie/image8.png)
 5. Create a job to discover sensitive data
-![Amazon Macie](https://brunorusso.com.br/assets/macie/image7.png)
+![Amazon Macie](https://brunorusso.com.br/assets/macie/image4.png)
 6. Now, the job created is running
-![Amazon Macie](https://brunorusso.com.br/assets/macie/image6.png)
+![Amazon Macie](https://brunorusso.com.br/assets/macie/image7.png)
 7. Is necessary wait some minutes for job complete
 
 8. After 11 minutes the job was completed
