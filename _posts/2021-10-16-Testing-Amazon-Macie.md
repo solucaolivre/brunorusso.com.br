@@ -76,7 +76,7 @@ By default, Amazon Macie identifies a lot of sensitive data, but in this test Iâ
     2. SensitiveData:S3Object/CustomIdentifier	
     3. SensitiveData:S3Object/Multiple	
 11. The file clients.txt have sensitive information and identified by REGEX created on step 4
-![Amazon Macie](https://brunorusso.com.br/assets/macie/image2.png)
+![Amazon Macie](https://brunorusso.com.br/assets/macie/image12.png)
 12. The occurrences can see 
 ![Amazon Macie](https://brunorusso.com.br/assets/macie/image9.png)
 13. Look the file content do check information
