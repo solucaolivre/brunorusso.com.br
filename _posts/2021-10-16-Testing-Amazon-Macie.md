@@ -37,29 +37,37 @@ By default, Amazon Macie identifies a lot of sensitive data, but in this test Iâ
 ## Example of use
 
 1-) I created a bucket S3 called dados-brunorusso and put some files in this bucket. They are different files, like:
-    1. resume
-    2. personal documents
-    3. bills for payment
-    4. and files with sensitive information like individual registration (CPF in Brazil)
+- resume
+- personal documents
+- bills for payment
+- and files with sensitive information like individual registration (CPF in Brazil)
 
 ![Amazon Macie](https://brunorusso.com.br/assets/macie/image1.png)
 
 2-) Enable Amazon Macie
-    1. Look instructions to enable in this link: [https://docs.aws.amazon.com/macie/latest/user/getting-started.html](https://docs.aws.amazon.com/macie/latest/user/getting-started.html)
-    2. After enable, I see this result:
+
+1- Look instructions to enable in this link: [https://docs.aws.amazon.com/macie/latest/user/getting-started.html](https://docs.aws.amazon.com/macie/latest/user/getting-started.html)
+2- After enable, I see this result:
 
 ![Amazon Macie](https://brunorusso.com.br/assets/macie/image2.png)
 
-    3. Look that:
-        1. The Bucket is not public
-        2. The bucket is with encryption enabled
-        3. The bucket is not shared
+3- Look that:
+- The Bucket is not public
+- The bucket is with encryption enabled
+- The bucket is not shared
 
 3-) Configure a repository for sensitive data discovery results
-    1. Look instructions to enable in this link: [https://docs.aws.amazon.com/macie/latest/user/getting-started.html](https://docs.aws.amazon.com/macie/latest/user/getting-started.html)
+
+1- Look instructions to enable in this link: [https://docs.aws.amazon.com/macie/latest/user/getting-started.html](https://docs.aws.amazon.com/macie/latest/user/getting-started.html)
+
 4-) Now, I create a Custom Data Identifier
-    1. In this step, I create a Custom Data Identifiers to search CPF
-    2. REGEX, used to detect CPF is: ([0-9]{2}[\.]?[0-9]{3}[\.]?[0-9]{3}[\/]?[0-9]{4}[-]?[0-9]{2})|([0-9]{3}[\.]?[0-9]{3}[\.]?[0-9]{3}[-]?[0-9]{2})
+
+1- In this step, I create a Custom Data Identifiers to search CPF
+2- REGEX, used to detect CPF is: 
+
+```txt
+([0-9]{2}[\.]?[0-9]{3}[\.]?[0-9]{3}[\/]?[0-9]{4}[-]?[0-9]{2})|([0-9]{3}[\.]?[0-9]{3}[\.]?[0-9]{3}[-]?[0-9]{2})
+```
 
 ![Amazon Macie](https://brunorusso.com.br/assets/macie/image6.png)
 
@@ -84,9 +92,11 @@ By default, Amazon Macie identifies a lot of sensitive data, but in this test Iâ
 ![Amazon Macie](https://brunorusso.com.br/assets/macie/image11.png)
 
 10-) Look in Top finding types are three types
-    1. SensitiveData:S3Object/Personal	
-    2. SensitiveData:S3Object/CustomIdentifier	
-    3. SensitiveData:S3Object/Multiple	
+
+1- SensitiveData:S3Object/Personal	
+2- SensitiveData:S3Object/CustomIdentifier	
+3- SensitiveData:S3Object/Multiple	
+
 11-) The file clients.txt have sensitive information and identified by REGEX created on step 4
 
 ![Amazon Macie](https://brunorusso.com.br/assets/macie/image12.png)
