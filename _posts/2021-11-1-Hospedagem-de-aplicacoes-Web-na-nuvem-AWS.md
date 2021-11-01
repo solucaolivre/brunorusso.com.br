@@ -1,7 +1,7 @@
 ---
 title: Hospedagem de aplicacoes Web na nuvem AWS
 author: Bruno Russo
-date: 2021-11-01 19:00 0300
+date: 2021-11-01 15:00 0300
 categories: [Cloud, AWS, Governança, Gestão]
 tags: [AWS, Cloud, Web, Arquitetura]
 layout: post
@@ -20,6 +20,7 @@ Ao utlizar AWS, há uma eficiência entre custos (investimentos) e a disponibili
 
 Assim que a decisão do uso da Cloud AWS é entendida como a melhor escolha, a primeira atividade que precisa ser feita é a definição de uma arquitetura adequada.
 
+![Move to Cloud](https://brunorusso.com.br/assets/2021/move-to-cloud.png "Imagem oficial: https://www.cloudflare.com/pt-br/learning/cloud/what-is-cloud-migration/")
 
 ## Como definir a arquitetura adequada?
 
