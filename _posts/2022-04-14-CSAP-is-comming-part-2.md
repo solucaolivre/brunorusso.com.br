@@ -15,6 +15,6 @@ The course: **Solutions Architect Professional**.
 Instructor: **Neal Daves**
 
 
-![Certificate](https://brunorusso.com.br/asset/AWS-treinamento-neal.jpg)
+![Certificate](https://brunorusso.com.br/assets/AWS-treinamento-neal.jpg)
 
 
