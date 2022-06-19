@@ -1,7 +1,7 @@
 ---
 title: AWS Certified Solutions Architect – Professional
 author: Bruno Russo
-date: 2022-06-19 23:00 0300
+date: 2022-06-19 11:00 0300
 categories: [Cloud, AWS, Architect]
 tags: [AWS, Cloud, Professional]
 layout: post
