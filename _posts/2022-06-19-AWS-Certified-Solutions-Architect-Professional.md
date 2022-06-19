@@ -19,6 +19,8 @@ I thank Itaú Unibanco for the support in training and tools for this journey.
 
 Link to check badge: [https://www.credly.com/badges/82540536-5c35-4237-951f-a790e6895290/public_url](https://www.credly.com/badges/82540536-5c35-4237-951f-a790e6895290/public_url)
 
+
+
 **About this certification**
 
 > This credential helps organizations identify and develop talent with critical skills for implementing cloud initiatives. Earning AWS Certified Solutions Architect – Professional validates the ability to design, deploy, and evaluate applications on AWS within diverse, complex requirements. For more information use this [link](https://aws.amazon.com/certification/certified-solutions-architect-professional/?nc1=h_ls).
