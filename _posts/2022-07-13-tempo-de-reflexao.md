@@ -8,6 +8,8 @@ layout: post
 type: post
 ---
 
+![Meditação](https://brunorusso.com.br/assets/meditacao.jpg)
+
 Os últimos sete meses foram realmente incríveis. Muitos acontecimentos profissionais e pessoais. Alguns acontecimentos foram bons, outros nem tanto.
 
 Quando um acontecimento é bom, é mais fácil sairmos fortalecidos, pois ele cria uma atmosfera extremamente positiva o que facilita o aprendizado.
@@ -33,3 +35,6 @@ _Muito, vamos lá:_
 3. Aprenda - tudo o que acontece tem sempre algo a nos ensinar e aprender com isso é importante.
 4. Nem tudo irá acontecer da maneira que queremos - e está tudo bem sendo desta maneira
 5. De um tempo para você mesmo - saber ter um tempo para você mesmo irá fazer toda a diferença. Escute seu EU interior e não a Razão exterior.
+
+
+_Imagem obtida em: https://www.blogs.unicamp.br/socialmente/2013/02/13/o-que-e-a-meditacao/_
