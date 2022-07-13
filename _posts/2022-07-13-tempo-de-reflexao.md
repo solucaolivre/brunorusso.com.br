@@ -9,7 +9,8 @@ type: post
 ---
 
 
-![Meditação](https://brunorusso.com.br/assets/meditacao.jpg  width="50%" height="50%")
+![Meditação](https://brunorusso.com.br/assets/meditacao.jpg){:height="50%" width="50%"}.
+
 
 Os últimos sete meses foram realmente incríveis. Muitos acontecimentos profissionais e pessoais. Alguns acontecimentos foram bons, outros nem tanto.
 
