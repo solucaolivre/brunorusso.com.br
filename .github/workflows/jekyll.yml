@@ -1,4 +1,4 @@
-name: Jekyll site CI
+name: Jekyll site CI2
 
 on:
   push:
