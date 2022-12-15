@@ -10,4 +10,6 @@ type: post
 
 Mais uma conquista de fim de ano.
 
-![Badges](http://badges.com.br/share/beb06cefc2800bdb705a0152eaf0513a.php?a=2149)
+![Badges](https://brunorusso.com.br/assets/BOB-198209.png)
+
+http://badges.com.br/share/beb06cefc2800bdb705a0152eaf0513a.php?a=2149
