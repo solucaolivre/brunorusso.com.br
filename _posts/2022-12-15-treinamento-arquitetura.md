@@ -10,4 +10,4 @@ type: post
 
 Mais uma conquista de fim de ano.
 
-<iframe frameborder="0" scrolling="no" src="http://badges.com.br/share/beb06cefc2800bdb705a0152eaf0513a.php?a=2149&embed=true" width="180" height="230"></iframe>
+![Badges](http://badges.com.br/share/beb06cefc2800bdb705a0152eaf0513a.php?a=2149)
