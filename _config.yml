@@ -24,10 +24,10 @@ timezone: America/Sao_paulo
 
 title: Bruno Russo                          # the main title
 
-tagline: AWS, Cloud, Agile, Tecnologia, Open Source e algo mais   # it will display as the sub-title
+tagline: Tecnologia, Cloud, AWS, OCI, Open Source e algo mais   # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
-  Tecnologia, Cloud, AWS e Open Source, estes são os conteúdos que este site possui!
+  Tecnologia, Cloud, AWS, OCI, Open Source e algo mais estes são os conteúdos que este site possui!
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
 
@@ -46,9 +46,9 @@ social:
     # The first element serves as the copyright owner's link
     - https://twitter.com/username      # change to your twitter homepage
     - https://github.com/username       # change to your github homepage
+    - https://www.linkedin.com/in/brunorusso
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
-    - https://www.linkedin.com/in/brunorusso
 
 google_site_verification: google_meta_tag_verification # change to your verification string
 
