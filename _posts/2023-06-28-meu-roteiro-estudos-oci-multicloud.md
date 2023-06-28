@@ -20,9 +20,9 @@ Dessa forma, analisei os treinamentos que a Oracle havia disponibilizado ano pas
 
 Revendo os treinamentos que tenho disponíveis, realizei os seguintes treinamentos:
 
-- Oracle Cloud Overview - https://mylearn.oracle.com/ou/learning-path/oracle-cloud-overview/115954 (This Learning Path introduces you to Cloud Computing and Oracle's Cloud Solutions which include Oracle Cloud Infrastructure and Oracle Cloud Applications.);
-- Oracle Cloud Infrastructure 2023 Certified Foundations Associate - https://mylearn.oracle.com/ou/learning-path/become-an-oci-foundations-associate-2023/122043 (This Learning Path provides the foundational knowledge of Oracle Cloud Infrastructure Cloud Services, and prepares you for the Oracle Cloud Infrastructure Foundations Associate Certification);
-- Oracle Cloud Infrastructure 2023 Multicloud Architect Certified Associate - https://mylearn.oracle.com/ou/learning-path/become-an-oci-multicloud-architect-associate/120606 (This Learning Path provides strong foundational knowledge in architecting infrastructure using Oracle Cloud Infrastructure services and prepares you for the Oracle Cloud Infrastructure Multicloud Architect Associate Certification.).
+- **Oracle Cloud Overview** - [https://mylearn.oracle.com/ou/learning-path/oracle-cloud-overview/115954](https://mylearn.oracle.com/ou/learning-path/oracle-cloud-overview/115954): This Learning Path introduces you to Cloud Computing and Oracle's Cloud Solutions which include Oracle Cloud Infrastructure and Oracle Cloud Applications;
+- **Oracle Cloud Infrastructure 2023 Certified Foundations Associate** - [https://mylearn.oracle.com/ou/learning-path/become-an-oci-foundations-associate-2023/122043[(https://mylearn.oracle.com/ou/learning-path/become-an-oci-foundations-associate-2023/122043)]: This Learning Path provides the foundational knowledge of Oracle Cloud Infrastructure Cloud Services, and prepares you for the Oracle Cloud Infrastructure Foundations Associate Certification;
+- **Oracle Cloud Infrastructure 2023 Multicloud Architect Certified Associate** - [https://mylearn.oracle.com/ou/learning-path/become-an-oci-multicloud-architect-associate/120606](https://mylearn.oracle.com/ou/learning-path/become-an-oci-multicloud-architect-associate/120606): This Learning Path provides strong foundational knowledge in architecting infrastructure using Oracle Cloud Infrastructure services and prepares you for the Oracle Cloud Infrastructure Multicloud Architect Associate Certification.
 
 O primeiro treinamento é introdutório ao universo Oracle Cloud, além de conhecer alguns itens básicos também compreenderá como Oracle Cloud Infraestrutura funciona e quais as ofertas de serviços Oracle Cloud Applications. Ao término do estudo você pode responder um questionário para avaliar o conhecimento.
 
@@ -30,13 +30,13 @@ Já com o segundo treinamento, é possível conhecer um pouco mais os serviços 
 
 O terceiro treinamento, é um pouco mais avançado que o treinamento de foundations, porém é extremamente focado em MultiCloud. É preciso ter um conhecimento básico de Cloud para realizar este treinamento, caso contrário terá dificuldade em alguns termos e serviços que são apresentados.
 
-Ao todo o investimendo foi cerca de 30 horas de estudos, entre vídeos do treinamento, testes, simulados, anotações e leitura da documentação oficial do OCI - https://docs.oracle.com/en-us/iaas/Content/home.htm
+Ao todo o investimendo foi cerca de 30 horas de estudos, entre vídeos do treinamento, testes, simulados, anotações e leitura da documentação oficial do OCI - [https://docs.oracle.com/en-us/iaas/Content/home.htm](https://docs.oracle.com/en-us/iaas/Content/home.htm)
  
-Além dos treinamentos oficiais, também realizei os simulados Oracle Cloud Infrastructure 2023 Multicloud Architect Associate disponibilizados pela Maitreyee - https://www.udemy.com/user/maitreyee-panda-2/
+Além dos treinamentos oficiais, também realizei os simulados Oracle Cloud Infrastructure 2023 Multicloud Architect Associate disponibilizados pela Maitreyee - [https://www.udemy.com/user/maitreyee-panda-2/](https://www.udemy.com/user/maitreyee-panda-2/)
 
 Com a dedicação e o tempo investido, consegui obter às certificações:
-Certificação - Oracle Cloud Infrastructure 2023 Foundations Associate
-Certificação - Oracle Cloud Infrastructure 2023 Multicloud Architect Associate
+- Certificação - Oracle Cloud Infrastructure 2023 Foundations Associate
+- Certificação - Oracle Cloud Infrastructure 2023 Multicloud Architect Associate
 
 ## O que aprendi?
 
@@ -51,7 +51,7 @@ Certificação - Oracle Cloud Infrastructure 2023 Multicloud Architect Associate
 - Implementar Interconexão OCI-Azure;
 - Implementar o Oracle Database Service para Azure.
 
-Para saber mais sobre Oracle Cloud MultiCloud, visite esse link: https://docs.oracle.com/en-us/iaas/Content/multicloud/intro.htm
+Para saber mais sobre Oracle Cloud MultiCloud, visite esse link: [https://docs.oracle.com/en-us/iaas/Content/multicloud/intro.htm](https://docs.oracle.com/en-us/iaas/Content/multicloud/intro.htm)
 
 
 ## Badges
