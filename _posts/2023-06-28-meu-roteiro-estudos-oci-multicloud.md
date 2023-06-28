@@ -21,7 +21,7 @@ Dessa forma, analisei os treinamentos que a Oracle havia disponibilizado ano pas
 Revendo os treinamentos que tenho disponíveis, realizei os seguintes treinamentos:
 
 - **Oracle Cloud Overview** - [https://mylearn.oracle.com/ou/learning-path/oracle-cloud-overview/115954](https://mylearn.oracle.com/ou/learning-path/oracle-cloud-overview/115954): This Learning Path introduces you to Cloud Computing and Oracle's Cloud Solutions which include Oracle Cloud Infrastructure and Oracle Cloud Applications;
-- **Oracle Cloud Infrastructure 2023 Certified Foundations Associate** - [https://mylearn.oracle.com/ou/learning-path/become-an-oci-foundations-associate-2023/122043[(https://mylearn.oracle.com/ou/learning-path/become-an-oci-foundations-associate-2023/122043)]: This Learning Path provides the foundational knowledge of Oracle Cloud Infrastructure Cloud Services, and prepares you for the Oracle Cloud Infrastructure Foundations Associate Certification;
+- **Oracle Cloud Infrastructure 2023 Certified Foundations Associate** - [https://mylearn.oracle.com/ou/learning-path/become-an-oci-foundations-associate-2023/122043](https://mylearn.oracle.com/ou/learning-path/become-an-oci-foundations-associate-2023/122043): This Learning Path provides the foundational knowledge of Oracle Cloud Infrastructure Cloud Services, and prepares you for the Oracle Cloud Infrastructure Foundations Associate Certification;
 - **Oracle Cloud Infrastructure 2023 Multicloud Architect Certified Associate** - [https://mylearn.oracle.com/ou/learning-path/become-an-oci-multicloud-architect-associate/120606](https://mylearn.oracle.com/ou/learning-path/become-an-oci-multicloud-architect-associate/120606): This Learning Path provides strong foundational knowledge in architecting infrastructure using Oracle Cloud Infrastructure services and prepares you for the Oracle Cloud Infrastructure Multicloud Architect Associate Certification.
 
 O primeiro treinamento é introdutório ao universo Oracle Cloud, além de conhecer alguns itens básicos também compreenderá como Oracle Cloud Infraestrutura funciona e quais as ofertas de serviços Oracle Cloud Applications. Ao término do estudo você pode responder um questionário para avaliar o conhecimento.
@@ -65,13 +65,13 @@ Para saber mais sobre Oracle Cloud MultiCloud, visite esse link: [https://docs.o
 
 Abaixo compartilho o conteúdo das minhas anotações que fiz durante o período de estudos.
 
-Benefícios de Multi Cloud
+**Benefícios de Multi Cloud**
 - redundância
 - redução de custos
 - Integração com Azure
 - < 2ms de latência
 
-Conexão é feita entre Azure express route com OCI fast connect
+**Conexão é feita entre Azure express route com OCI fast connect**
 - não há custo de data transfer (in/out)
 - Casos de Uso
     - Banco no OCI, APP no Azure - Conexão via Fast Connect e Express Route
@@ -84,7 +84,7 @@ Conexão é feita entre Azure express route com OCI fast connect
 - alto throughput
 - Arquitetura split stack
 
-IAM
+**IAM**
 - controle de acessos é granular
 - Autenticação e autorização
 - Conceitos do Identity
@@ -102,7 +102,7 @@ IAM
 - O padrão de segurança adotado é sempre o de menor privilégio
 - Se não permitir, então está negado!
 
-Policy
+**Policy**
 - Permite (allow)
 - Quem (subject)
 - recurso (verb)
@@ -110,14 +110,14 @@ Policy
 - where
 - condição
 
-Tipos de Identity Domain
+**Tipos de Identity Domain**
 - Padrão que é gratuito
 - Oracle Apps, usado para Oracle PaaS, SaaS e GBU App
 - Oracle Apps Premium, usado em uma mescla dois modelos acima
 - Premium, fornece full control e um suporte mais amplo
 - External User, para usuários externos e com suporte a uma escala de milhões de usuários
 
-Federação
+**Federação**
 - Identity Provider (gestão dos usuários)
 - Service Provider, que usa o IdP para autenticar
 - Suporte SAML 2.0
@@ -126,7 +126,7 @@ Federação
     - SAML
     - Metadata URL
 
-Federado
+**Federado**
 - A autenticação ocorre em 5 etapas
 - Usuário acessa recurso no Service Provider
 - Service Provider retorna o pedido de autenticação
@@ -134,7 +134,7 @@ Federado
 - ID valida a autenticação
 - Usuário acessa a aplicação/recurso
 
-VCN
+**VCN**
 - VCN é por região
 - Conexão  entre VCN é realizado por Peering
 - Cada VCN pode ter mais de um CIDR
@@ -145,7 +145,7 @@ VCN
 - pode ter até 5 prefixos de IPV6
 - A diferença da subnet pública e privada é uma flag
 
-VCN subnet
+**VCN subnet**
 - máximo de 300 subnets por VCN
 - subnet pública:
     - é internet-facing
@@ -156,25 +156,25 @@ Subnet:
     - A subnet pode ser alterada
 - vNIC (Virtual Network Interface Card), determina como a instância se conecta com endpoint interno/externo da VCN.
 
-VCN Security
-Security list
-- é um firewall
-- quando cria uma VCN, automaticamente é criada uma security list
-- as regras são aplicadas em ordem
-- as regras são associadas com subnets, com isso afetam recursos criados dentro destas subnets
-- Padrão é negar tudo
-- limite de 5 security list por subnet
-- statefull security rules é configurada no momento da regra, ou seja, você define se a regra é ou não stateful. Desta forma, o tráfego Ingress terá um egress habilitando o mesmo
-- Stateless, precisa criar uma regra de egress para o retorno da requisição.
-- bom para ser usado com Load Balancer, Big Data
-- ICMP, precisa de regras de egress criada para funcionar
+**VCN Security**
+- Security list
+    - é um firewall
+    - quando cria uma VCN, automaticamente é criada uma security list
+    - as regras são aplicadas em ordem
+    - as regras são associadas com subnets, com isso afetam recursos criados dentro destas subnets
+    - Padrão é negar tudo
+    - limite de 5 security list por subnet
+    - statefull security rules é configurada no momento da regra, ou seja, você define se a regra é ou não stateful. Desta forma, o tráfego Ingress terá um egress habilitando o mesmo
+    - Stateless, precisa criar uma regra de egress para o retorno da requisição.
+    - bom para ser usado com Load Balancer, Big Data
+    - ICMP, precisa de regras de egress criada para funcionar
 
-Network Security Groups
+**Network Security Groups**
 - regras aplicadas para cada recurso de forma individual
 - máximo de 5 NSG por vNIC
 - pode ser usado em mais  de um recurso
 
-VCN Peering
+**VCN Peering**
 - local peering
 - na mesma região
 - não pode ter overlap de IP
@@ -187,7 +187,7 @@ VCN Peering
 - usa o Dynamic Routing Gateway em cada região para estabelecer as conexões
 - Usa o backbone da Oracle para estabelecer a conexão entre as regiões 
 
-VCN Gateway
+**VCN Gateway**
 - Internet Gateway - entrada/saída para Internet
 - Nat Gateway - saída para internet
 - Service Gateway  - permite conexão com outros serviços OCI via rede privada
@@ -234,7 +234,7 @@ VCN Gateway
     - Conta A -> Conta B
     - On-premise  acessar conta  B
 
-MULTICLOUD CONNECTIVITY
+**MULTICLOUD CONNECTIVITY**
 - Site-to-site VPS
 - Internet Pública
 - múltiplos túneis IPsec
@@ -260,7 +260,7 @@ MULTICLOUD CONNECTIVITY
     - Padrão de VPN é IPSec
     - Alguns vendors são suportados
 
-MultiCloud Site to site VPN
+**MultiCloud Site to site VPN**
 - Existem documentações prontas para cada provider de nuvem
 - Fast Connect
 - conexão são de 1Gb/10Gb/100Gb
@@ -279,7 +279,7 @@ MultiCloud Site to site VPN
 - BGP para IPV6
     - prefixos suportados: /64, /96, /126, /127
 
-OCI-Azure
+**OCI-Azure**
 - Conexão cross-cloud
 - A conexão é direta, não tem provedor de telecom
 - Aplicações multicloud
@@ -329,14 +329,14 @@ OCI-Azure
             - domain
             - fault domain
 
-Arquitetura de Storage para DB
+**Arquitetura de Storage para DB**
 - LVM e Block Storage
 - ASM usa Data e Recovering disk group
 - Block fornece tríplice armazenamento de dados
 - ASM a redundância é definida para externa
 - Suporta clone do SystemDB
 
-Automação e ciclo de vida
+**Automação e ciclo de vida**
 - ferramentas que podem ser usadas: Interface WEB, API, SDK, CLI e terraform
 - Ações
     - Scale OCPU
@@ -345,7 +345,7 @@ Automação e ciclo de vida
     - updateDB e systemDB
     - Backup e restore
 
-HA e DR
+**HA e DR**
 - RAC
     - Isola contra falha
     - mesma região
@@ -355,7 +355,7 @@ HA e DR
     - pode ser usado entre regiões
     - usado para DR
 
-Autonomous Database
+**Autonomous Database**
 - Usa Linux customizado
 - otimizado
 - patchs automáticos
@@ -385,7 +385,7 @@ Autonomous Database
         - hardware do exadata é exclusivo
         - permite maior customização, por  exemplo update de versão, tempo  de retenção dos dados  de backup, etc
 
-Exadata Database Service
+**Exadata Database Service**
 - Solução  Exatada na OCI
 - Oferece
     - RAC
@@ -410,7 +410,7 @@ Exadata Database Service
     - bom para quem já tem licença
     - Inclui: TDE, data safe, oracle ML e packs de gerenciamento
 
-MySQL Database Service
+**MySQL Database Service**
 - 100% gerenciado
 - service  native
 - mais seguro
@@ -428,7 +428,7 @@ MySQL Database Service
     - dumpX
     - loadDump
 
-MySQL HA
+**MySQL HA**
 - Suportado nas versões 8.0.24 ou superiores
 - pode  ser configurado no setup ou posteriormente
 - Node primário é R/W
@@ -442,7 +442,7 @@ MySQL HA
 - RTO = minutos
 - Poder ter um Preferred Placement, porém no fail over o Connect Placement é alterado automáticamente. Pode ser revertido
 
-MySQL HeatWave
+**MySQL HeatWave**
 - MySQL é bom para dados transacionais
 - MySQL não é bom para dados analiticos
 - Problema:
@@ -473,7 +473,7 @@ MySQL HeatWave
     - rotinas de ML podem ser pré criadas para serem executadas através de uma query SL
     - ML pode ser treinado
 
-Oracle Database Service for Azure
+**Oracle Database Service for Azure**
 - Permite usar bancos de dados Oracle, na nuvem OCI, a partir da Azure
 - Para o usuário, a experiência é como usar Azure 3 passos necessários
     1. estabelecer conexão entre as contas/clouds
@@ -485,7 +485,7 @@ Oracle Database Service for Azure
 - Base Database Service
 - MySQL HeatWave
 
-Como funciona
+**Como funciona**
 - usuário tem o portal Azure para criar e gerenciar os recursos na OCI conexão é automática, basta ter subscription no Azure
 - Usar o AzureAD para autenticar os usuários que forem utilizar os serviços OCI
 - Acesso ao banco é direto
