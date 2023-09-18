@@ -8,18 +8,22 @@ layout: post
 type: post
 ---
 
-## Introdução
+## Introdução - Desvendando o Futuro da Computação: Serverless
 
-When you are designing your architecture, don't focus on this question: ”What’s the data that I’m storing and what operations do I need to perform against that?" Instead, ask yourself this: “What are the events that should trigger an action in my system?"
+Nos últimos anos, uma revolução silenciosa vem transformando a forma como concebemos e desenvolvemos aplicações e serviços na era digital. Esqueça os tradicionais servidores físicos ou máquinas virtuais que costumavam ser a espinha dorsal da infraestrutura de TI. Em seu lugar, emerge uma abordagem radicalmente nova conhecida como "serverless" (sem servidor), que promete simplificar a vida dos desenvolvedores, otimizar recursos e reduzir custos operacionais.
+
+À medida que avançamos na era da computação em nuvem, o serverless surge como uma mudança de paradigma emocionante e disruptiva.
+
+Ao projetar sua arquitetura, não se concentre na questão: “Quais são os dados que estou armazenando e quais operações preciso realizar em relação a eles?” Em vez disso, pergunte: “Quais são os eventos que devem acionar uma ação no meu sistema?" - AWS
 
 
 ## O que Serverless realmente significa?
 
 Serverless possui 4 características principais:
 
-1. **Ser servidor para gerenciar** - não existe patch para ser aplicado.
-2. **Escalabilidade flexível** - define-se uma capacidade mínima, como: memória, CPU, quantidade de leitura/escrita ou volume de dados que será enviado, e o ambiente pode escalar de forma automática essa capacidade de acordo com o a necessidade que o ambiente necessitar
-3. **Alta disponibilidade automática e tolerância a falhas** - serviços serverless possuem essas características por padrão e isso não pode ser desligado
+1. **Sem servidor para gerenciar** - não existe patch para ser aplicado.
+2. **Escalabilidade flexível** - define-se uma capacidade mínima, como: memória, CPU, quantidade de leitura/escrita ou volume de dados que será enviado, e o ambiente pode escalar de forma automática essa capacidade de acordo com o a necessidade que o ambiente necessitar.
+3. **Alta disponibilidade automática e tolerância a falhas** - serviços serverless possuem essas características por padrão e isso não pode ser desligado.
 4. **Sem capacidade ociosa** – o custo é com base na utilização.
 
 
