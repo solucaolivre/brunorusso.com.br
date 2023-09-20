@@ -8,7 +8,7 @@ layout: post
 type: post
 ---
 
-<img scr="https://www.brunorusso.com.br/assets/serverless.png" alt="Fonte: https://blogs.pucpr.br/sistemas-de-informacao/2022/04/25/voce-sabe-o-que-e-serverless-architecture/" width="50%" height="auto"
+<img scr="https://www.brunorusso.com.br/assets/serverless.jpg" alt="Fonte: https://blogs.pucpr.br/sistemas-de-informacao/2022/04/25/voce-sabe-o-que-e-serverless-architecture/" width="50%" height="auto">
 
 > Ao projetar sua arquitetura, não se concentre na questão: “Quais são os dados que estou armazenando e quais operações preciso realizar em relação a eles?” Em vez disso, pergunte: “Quais são os eventos que devem acionar uma ação no meu sistema?" - AWS
 
