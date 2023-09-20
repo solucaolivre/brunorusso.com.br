@@ -12,11 +12,11 @@ type: post
 
 > Ao projetar sua arquitetura, não se concentre na questão: “Quais são os dados que estou armazenando e quais operações preciso realizar em relação a eles?” Em vez disso, pergunte: “Quais são os eventos que devem acionar uma ação no meu sistema?" - AWS
 
-## Introdução - Desvendando o Futuro da Computação: Serverless
+## Introdução - Serverless
 
 Nos últimos anos, uma revolução silenciosa vem transformando a forma como concebemos e desenvolvemos aplicações e serviços na era digital. Esqueça os tradicionais servidores físicos ou máquinas virtuais que costumavam ser a espinha dorsal da infraestrutura de TI. Em seu lugar, emerge uma abordagem radicalmente nova conhecida como "serverless" (sem servidor), que promete simplificar a vida dos desenvolvedores, otimizar recursos e reduzir custos operacionais.
 
-À medida que avançamos na era da computação em nuvem, o serverless surge como uma mudança de paradigma emocionante e disruptiva.
+E à medida que avançamos na era da computação em nuvem, o serverless surge como uma mudança de paradigma emocionante e disruptiva.
 
 Neste post, apresento algumas informações sobre serverless e faço uma breve introdução de como AWS Lambda é estruturada.
 
