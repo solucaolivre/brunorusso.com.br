@@ -17,6 +17,10 @@ Systems · (1996 - 1998)
 
 # Certificação Técnica
 
+## DevOps Institute
+
+- **SRE Foundation℠ Certification** - Emitido em dez dez de 2023 · Expira em dez de 2025
+
 ## AWS
 - **AWS Certified Security – Specialty** - Emitido em mar de 2023 · Expira em mar de 2026
 - **AWS Certified Solutions Architect – Professional** - Emitido em jun de 2022 · Expira em jun de 2025
