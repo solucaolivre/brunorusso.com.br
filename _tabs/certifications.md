@@ -10,8 +10,7 @@ order: 1
 * University of Maryland College Park - Usable Security, Segurança Cibernética · (2015 - 2015)
 * Centro Universitário Anhangüera - MBA, Project Management, Project Management · (2009 - 2010)
 * Universidade Presbiteriana Mackenzie - Graduate, Information Systems, Information Systems · (1999 - 2003)
-* Colégio ECO - Technical Data Processing, Information Systems, Information
-Systems · (1996 - 1998)
+* Colégio ECO - Technical Data Processing, Information Systems, Information Systems · (1996 - 1998)
 
 
 
@@ -22,9 +21,10 @@ Systems · (1996 - 1998)
 - **SRE Foundation℠ Certification** - Emitido em dez dez de 2023 · Expira em dez de 2025
 
 ## AWS
+- **AWS Certified DevOps Engineer – Professional** - Emitido em mai de 2024 · Expira em mai de 2027
 - **AWS Certified Security – Specialty** - Emitido em mar de 2023 · Expira em mar de 2026
 - **AWS Certified Solutions Architect – Professional** - Emitido em jun de 2022 · Expira em jun de 2025
-- **AWS Certified Developer – Associate** - Emitido em ago de 2021 · Expira em ago de 2024
+- **AWS Certified Developer – Associate** - Emitido em ago de 2021 · Expira em mai de 2027
 - **AWS Cloud Financial Management for Builders** - Emitida em abr de 2021
 - **AWS Certified Solutions Architect – Associate** - Emitido em fev de 2021 · Expira em jun de 2025
 - **AWS Certified Cloud Practitioner** - Emitido em out de 2020 · Expira em jun de 2025
