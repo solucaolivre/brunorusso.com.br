@@ -1,7 +1,7 @@
 ---
 title: O licenciamento open source e seu uso no mundo corporativo
 author: Bruno Russo
-date: 2024-06-16 22:00 0300
+date: 2024-06-14 22:00 0300
 categories: [governança]
 tags: [OpenSource, licença]
 layout: post
