@@ -16,10 +16,15 @@ order: 1
 
 # Certificação Técnica
 
-## DevOps Institute
+## Datadog
+- **Datadog Foundation** - Emitido em Jun de 2024 - Não expira
+- **Introduction to Observability** - - Emitido em Jun de 2024 - Não expira
+  
 
+## DevOps Institute
 - **SRE Foundation℠ Certification** - Emitido em dez dez de 2023 · Expira em dez de 2025
 
+    
 ## AWS
 - **AWS Certified DevOps Engineer – Professional** - Emitido em mai de 2024 · Expira em mai de 2027
 - **AWS Certified Security – Specialty** - Emitido em mar de 2023 · Expira em mar de 2026
@@ -65,6 +70,7 @@ order: 1
 - **Oracle Cloud Infrastructure 2023 Certified Foundations Associate** - Emitido em jun de 2023 · Expira em jun de 2025
 - **Oracle Cloud Infrastructure 2023 Certified Multicloud Architect Associate** - Emitida em jun de 2023
 - **Oracle Cloud Overview** - Emitida em mai de 2023
+
 
 ## Red Hat
 - **Accreditation: Red Hat Delivery Specialist - Platform-as-a-Service (PaaS) Development** - Emitido em mar de 2018 · Expira em mar de 2020
