@@ -1,7 +1,7 @@
 ---
 title: Kubernetes como uma solução multi cloud
 author: Bruno Russo
-date: 2024-06-28 22:00 0300
+date: 2024-06-28 06:00 0300
 categories: [Cloud, Gestão]
 tags: [Cloud, Kubernetes]
 layout: post
