@@ -13,6 +13,18 @@ order: 1
 * Colégio ECO - Technical Data Processing, Information Systems, Information Systems · (1996 - 1998)
 
 
+# Idiomas
+
+## Inglês
+- **EF Level 7 Intermediate CEFR Level B1** - 2017
+- **EF Level 8 Intermediate CEFR Level B1** - 2017
+- **EF Level 12 Upper Intermediate CEFR Level B2** - 2021
+- **EF Level 15 Advanced CEFR Level C1** - 2024
+
+
+## Espanhol
+- **A1**
+
 
 # Certificação Técnica
 
