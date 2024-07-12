@@ -1,7 +1,7 @@
 ---
 title: AWS Well-Architected: Benefícios, Importância e Aplicações
 author: Bruno Russo
-date: 2024-07-12 18:00 0300
+date: 2024-07-12 12:00 0300
 categories: [Cloud, Aprendizado, Conhecimento, Cloud, AWS]
 tags: [Aprendizado, aws, treinamento, Arquitetura]
 layout: post
