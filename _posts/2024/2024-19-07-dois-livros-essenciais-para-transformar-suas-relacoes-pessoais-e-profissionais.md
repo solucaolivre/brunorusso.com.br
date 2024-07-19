@@ -15,7 +15,7 @@ No mundo acelerado e competitivo de hoje, a capacidade de influenciar e confiar 
 
 ### Confiança Inteligente - Stephen M. R. Covey
 
-<img align="center" src="https://www.brunorusso.com.br/assets/2024/confianca-inteligente.jpg" width="50%" height="auto"  alt="Confiança Inteligente">
+<img align="center" src="https://www.brunorusso.com.br/assets/2024/confianca-inteligente.jpg" width="30%" height="auto"  alt="Confiança Inteligente">
 
 
 Stephen M. R. Covey, filho do renomado autor de "Os 7 Hábitos das Pessoas Altamente Eficazes", oferece em "Confiança Inteligente" uma abordagem inovadora sobre a construção de confiança. Em um mundo onde a confiança está em baixa, Covey propõe que a confiança é um ativo estratégico que pode ser aprendido e medido.
@@ -36,7 +36,7 @@ Este livro é essencial para qualquer pessoa que deseja melhorar suas habilidade
 
 ### Persuasão & Influência - Robert B. Cialdini
 
-<img align="center" src="https://www.brunorusso.com.br/assets/2024/persuasao-influencia.jpg" width="50%" height="auto"  alt="Persuasão & Influência">
+<img align="center" src="https://www.brunorusso.com.br/assets/2024/persuasao-influencia.jpg" width="30%" height="auto"  alt="Persuasão & Influência">
 
 
 Robert B. Cialdini é um dos maiores especialistas mundiais em persuasão e influência. Em seu livro "Persuasão & Influência", ele revela os princípios psicológicos que fazem com que as pessoas digam "sim" e como aplicar esses princípios de forma ética e eficaz.
