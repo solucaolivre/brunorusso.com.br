@@ -8,7 +8,7 @@ layout: post
 type: post
 ---
 
-<img align="center" src="https://www.brunorusso.com.br/assets/2024/The-Open-Organization.jpg" width="50%" height="auto"  alt="https://www.redhat.com/en/explore/the-open-organization-book">
+<img align="center" src="https://www.brunorusso.com.br/assets/2024/The-Open-Organization.jpg" width="30%" height="auto"  alt="https://www.redhat.com/en/explore/the-open-organization-book">
 
 
 O livro ["The Open Organization"](https://www.redhat.com/en/explore/the-open-organization-book) escrito por Jim Whitehurst, o ex-CEO da Red Hat compartilha suas experiências e insights sobre a cultura organizacional aberta que ele ajudou a fomentar na Red Hat. Ele discute como a transparência, a colaboração e a meritocracia podem transformar uma organização, incentivando a inovação e a agilidade.
