@@ -11,10 +11,10 @@ type: post
 
 ---
 
-### Oracle Cloud Infrastructure (OCI) e a Revolução dos Processadores ARM com Ampere
+### Introdução
 
 
-<img align="center" src="https://www.brunorusso.com.br/assets/2024/Ampere-ARM.webp" width="30%" height="auto">
+<img align="center" src="https://www.brunorusso.com.br/assets/2024/Ampere-ARM.webp" width="60%" height="auto">
 
 
 Nos últimos anos, a computação em nuvem tornou-se um pilar fundamental para a transformação digital das empresas. Dentro desse cenário, a Oracle Cloud Infrastructure (OCI) emergiu como uma das principais plataformas de nuvem, oferecendo uma ampla gama de serviços que permitem às organizações modernizar suas infraestruturas, aumentar a eficiência operacional e escalar suas aplicações. Entre as ofertas de serviços do OCI, uma das inovações mais significativas é o uso da tecnologia Ampere, que utiliza processadores ARM, oferecendo uma alternativa poderosa e eficiente aos tradicionais processadores x86.
