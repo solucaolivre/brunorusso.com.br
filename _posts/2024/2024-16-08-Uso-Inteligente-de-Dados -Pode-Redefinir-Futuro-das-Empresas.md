@@ -1,7 +1,7 @@
 ---
 title: "Como o Uso Inteligente de Dados Pode Redefinir o Futuro das Empresas"
 author: Bruno Russo
-date: 2024-08-10 07:00 0300
+date: 2024-08-16 07:00 0300
 categories: [gestão, Governança]
 tags: [Big Data]
 layout: post
