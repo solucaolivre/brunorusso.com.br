@@ -11,7 +11,7 @@ type: post
 <img align="center" src="https://www.brunorusso.com.br/assets/2024/adr.webp" width="60%" height="auto">
 
 
-**A Importância do Architecture Decision Record (ADR)**
+# A Importância do Architecture Decision Record (ADR)
 
 A tomada de decisões arquitetônicas em projetos de desenvolvimento de software é um processo crucial que pode impactar diretamente a eficiência, escalabilidade e manutenção das soluções implementadas. Nesse contexto, surge o *Architecture Decision Record* (ADR) como uma ferramenta ágil e eficaz para formalizar e documentar essas decisões. Neste texto, vamos explorar a importância do ADR e como ele pode ser um diferencial para profissionais de tecnologia que buscam otimizar suas práticas de arquitetura.
 
