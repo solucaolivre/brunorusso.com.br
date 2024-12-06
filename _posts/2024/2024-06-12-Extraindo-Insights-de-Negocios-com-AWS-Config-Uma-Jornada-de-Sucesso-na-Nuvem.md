@@ -60,3 +60,6 @@ Abaixo está o vídeo do AWS re:Invent 2024 - Unlocking business insights with A
 
 Um agradecimento especial ao time de Arquitetura e Governança do CCoE por todo o esforço e dedicação neste projeto. O sucesso dessa iniciativa é resultado do trabalho árduo, da expertise e da colaboração de cada membro da equipe. Parabéns a todos!
 
+Orgulho em ter feito parte!
+
+
