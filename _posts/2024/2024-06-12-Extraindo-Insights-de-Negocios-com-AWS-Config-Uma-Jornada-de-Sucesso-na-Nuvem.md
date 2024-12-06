@@ -41,10 +41,6 @@ A AWS Config e a plataforma de metadados proporcionaram à empresa:
 
 
 
-### Agradecimento
-
-Um agradecimento especial ao time de Arquitetura e Governança do CCoE por todo o esforço e dedicação neste projeto. O sucesso dessa iniciativa é resultado do trabalho árduo, da expertise e da colaboração de cada membro da equipe. Parabéns a todos!
-
 ### Conclusão
 
 Este caso de sucesso demonstra o poder da AWS Config para extrair insights de negócios e impulsionar o sucesso na nuvem. Ao fornecer visibilidade completa, garantir a conformidade e otimizar custos, a AWS Config se torna uma aliada essencial para empresas que buscam maximizar o retorno de seus investimentos em nuvem.
@@ -55,4 +51,9 @@ Abaixo está o vídeo do AWS re:Invent 2024 - Unlocking business insights with A
 
 
 {% youtube "https://youtu.be/FsrJPaKE4ro" %}
+
+
+### Agradecimento
+
+Um agradecimento especial ao time de Arquitetura e Governança do CCoE por todo o esforço e dedicação neste projeto. O sucesso dessa iniciativa é resultado do trabalho árduo, da expertise e da colaboração de cada membro da equipe. Parabéns a todos!
 
