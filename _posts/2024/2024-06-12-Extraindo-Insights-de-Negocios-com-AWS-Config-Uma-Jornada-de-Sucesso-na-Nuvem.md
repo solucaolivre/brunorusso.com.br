@@ -10,34 +10,37 @@ type: post
 
 ## Introdução
 
-A gestão de recursos em ambientes de nuvem, como a AWS, pode ser um desafio e tanto. Imagine a complexidade de rastrear e configurar milhares de instâncias, bancos de dados e serviços, cada um com suas peculiaridades e necessidades. É aí que entra a AWS Config, uma ferramenta poderosa que nos permite mergulhar fundo no coração da nossa infraestrutura na nuvem e extrair insights valiosos para o negócio.
+A gestão de recursos em ambientes de nuvem, como a AWS, pode ser um desafio e tanto. Imagine a complexidade de rastrear e configurar milhares de instâncias, bancos de dados e serviços, cada um com suas peculiaridades e necessidades. É como navegar por um labirinto gigante sem um mapa, onde cada passo em falso pode levar a custos desnecessários, falhas de segurança e perda de eficiência.
 
-Uma grande empresa do setor financeiro enfrentou esse desafio de frente. Com uma crescente presença na nuvem, a necessidade de gerenciar e otimizar seus recursos se tornou crítica. Para isso, o time de Arquitetura e Governança, parte integrante do CCoE (Cloud Center of Excellence), arregaçou as mangas e, utilizando a AWS Config, construiu uma plataforma de metadados na nuvem. Essa solução inovadora trouxe visibilidade completa e controle sobre seus ativos na AWS.
+É aí que entra a AWS Config, uma ferramenta poderosa que nos permite mergulhar fundo no coração da nossa infraestrutura na nuvem e extrair insights valiosos para o negócio.
+
+Esse desafio é enfrentado por muitas empresas, com a crescente presença na nuvem e a necessidade crítica de gerenciar e otimizar seus recursos. Para gerenciar essa complexidade, foi usado o AWS Config – uma ferramenta poderosa que funciona como um "raio-x" da sua infraestrutura na nuvem.
+
 
 ## Desafios e Soluções
 
 Antes da AWS Config, a empresa se deparava com dificuldades em:
 
-- Manter uma visão unificada dos recursos: Com a rápida expansão na nuvem, era difícil ter uma visão clara de todos os recursos em uso e suas configurações.
-- Garantir a conformidade: Assegurar que todos os recursos estivessem em conformidade com as políticas de segurança e governança era uma tarefa complexa.
-- Otimizar custos: Identificar e eliminar recursos ociosos ou subutilizados para reduzir gastos era um processo manual e demorado.
+- **Manter uma visão unificada dos recursos:** Com a rápida expansão na nuvem, era difícil ter uma visão clara de todos os recursos em uso e suas configurações;
+- **Garantir a conformidade:** Assegurar que todos os recursos estivessem em conformidade com as políticas de segurança e governança era uma tarefa complexa;
+- **Otimizar custos:** Identificar e eliminar recursos ociosos ou subutilizados para reduzir gastos era um processo manual e demorado.
 
 Com a implementação da AWS Config e a criação da plataforma de metadados, o time de Arquitetura e Governança superou esses desafios e colheu frutos significativos, como:
 
-- Visibilidade total: A AWS Config forneceu um inventário detalhado de todos os recursos na nuvem, incluindo suas configurações e histórico de alterações.
-- Conformidade automatizada: A plataforma permitiu automatizar a verificação da conformidade dos recursos com as políticas internas, garantindo a segurança e a governança.
-- Otimização de custos: A identificação de recursos ociosos e subutilizados se tornou mais fácil, permitindo a otimização de custos e o aumento da eficiência.
-- Tomada de decisões baseada em dados: Com insights precisos sobre o uso e o desempenho dos recursos, a empresa passou a tomar decisões mais estratégicas e eficazes.
+- **Visibilidade total:** A AWS Config forneceu um inventário detalhado de todos os recursos na nuvem, como um mapa completo e interativo. A equipe finalmente conseguia visualizar a configuração de cada recurso, seu histórico de alterações e suas relações com outros componentes da infraestrutura;
+- **Conformidade automatizada:** A plataforma automatizou a verificação da conformidade com as políticas internas, como um robô que inspeciona cada recurso e garante que ele siga as regras. A equipe passou a receber alertas automáticos sobre qualquer desvio, agilizando a correção e minimizando riscos;
+- **Otimização de custos:** A identificação de recursos ociosos se tornou mais fácil e precisa, como um radar que detecta os pontos de desperdício. A empresa conseguiu eliminar gastos desnecessários com instâncias EC2 de gerações anteriores que são mais caras, por exemplo;
+- **Tomada de decisões baseada em dados:** Com insights precisos sobre o uso e o desempenho dos recursos, a empresa passou a tomar decisões mais estratégicas e eficazes.
 
 
 ### Resultados Concretos
 
 A AWS Config e a plataforma de metadados proporcionaram à empresa:
 
-- Redução de custos: A otimização de recursos e a eliminação de desperdícios geraram uma economia significativa.
-- Melhoria da segurança: A garantia da conformidade com as políticas de segurança fortaleceu a proteção dos dados e da infraestrutura.
-- Aumento da eficiência: A automação de tarefas e a visibilidade completa dos recursos otimizaram as operações e liberaram tempo para a equipe se concentrar em atividades estratégicas.
-- Agilidade e Inovação: A capacidade de gerenciar e configurar recursos de forma rápida e eficiente impulsionou a inovação e acelerou o desenvolvimento de novas soluções.
+- **Redução de custos:** A otimização de recursos e a eliminação de desperdícios geraram uma economia significativa.
+- **Melhoria da segurança:** A garantia da conformidade com as políticas de segurança fortaleceu a proteção dos dados e da infraestrutura.
+- **Aumento da eficiência:** A automação de tarefas e a visibilidade completa dos recursos otimizaram as operações e liberaram tempo para a equipe se concentrar em atividades estratégicas.
+- **Agilidade e Inovação:** A capacidade de gerenciar e configurar recursos de forma rápida e eficiente impulsionou a inovação e acelerou o desenvolvimento de novas soluções.
 
 
 
