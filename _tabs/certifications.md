@@ -38,6 +38,7 @@ order: 1
 
     
 ## AWS
+- **AWS Certified SysOps Administrator – Associate** - Emitido em dez de 2024 · Expira em dez de 2027
 - **AWS Certified AI Practitioner** - Emitido em out de 2024 · Expira em out de 2027
 - **AWS Certified Data Engineer – Associate** - Emitido em ago de 2024 · Expira em ago de 2027
 - **AWS Certified DevOps Engineer – Professional** - Emitido em mai de 2024 · Expira em mai de 2027
