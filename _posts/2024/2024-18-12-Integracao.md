@@ -2,7 +2,7 @@
 title: "Integrando o Caos:"
 description: " Um Guia para Arquiteturas de Integração Eficientes"
 author: "Bruno Russo"
-date: 2024-12-17 07:00 +0300
+date: 2024-12-18 07:00 +0300
 categories: [Auto Conhecimento]
 tags: [Slackware, Linux]
 ping: true
