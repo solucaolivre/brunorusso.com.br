@@ -1,3 +1,4 @@
+---
 title: "As redes sociais: De pontes de conexão a campos de batalha ideológicos?"
 description: "As redes sociais, antes ferramentas de conexão, agora amplificam a polarização política e a disseminação de fake news, exigindo um debate sobre seu impacto na sociedade."
 author: "Bruno Russo"
