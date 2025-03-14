@@ -1,7 +1,7 @@
 ---
 title: "SDR - System Design Review"
 author: "Bruno Russo"
-date: 2025-01-14 03:00 +0300
+date: 2025-03-14 03:00 +0300
 categories: ["Governança"]
 tags: ["Governança"]
 ping: true
