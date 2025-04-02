@@ -38,6 +38,7 @@ order: 1
 
     
 ## AWS
+- **AWS Certified Machine Learning Engineer – Associate** - Emitido em abr de 2025 · Expira em abr de 2028
 - **AWS Certified SysOps Administrator – Associate** - Emitido em dez de 2024 · Expira em dez de 2027
 - **AWS Certified AI Practitioner** - Emitido em out de 2024 · Expira em out de 2027
 - **AWS Certified Data Engineer – Associate** - Emitido em ago de 2024 · Expira em ago de 2027
