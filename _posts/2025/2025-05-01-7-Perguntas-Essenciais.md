@@ -9,7 +9,7 @@ math: true
 mermaid: true
 image: 
     path: https://www.brunorusso.com.br/assets/2025/7-Perguntas-Essenciais.jpg
-    alt: "A imagem é uma ilustração digital vibrante com um tema tecnológico, projetada para promover um artigo sobre "7 perguntas para alinhar tecnologia e negócios". O fundo apresenta um gradiente de azul e roxo, criando uma estética futurista e high-tech. Há linhas finas e curvas suaves ao fundo, que lembram fluxos de dados ou circuitos digitais, adicionando um toque de dinamismo.
+    alt: "A imagem é uma ilustração digital vibrante com um tema tecnológico, projetada para promover um artigo sobre 7 perguntas para alinhar tecnologia e negócios. O fundo apresenta um gradiente de azul e roxo, criando uma estética futurista e high-tech. Há linhas finas e curvas suaves ao fundo, que lembram fluxos de dados ou circuitos digitais, adicionando um toque de dinamismo.
 No centro da imagem, há um homem de pele clara, quase careca (com cabelo muito curto), usando óculos de armação preta. Ele está sorrindo e parece confiante. Sua roupa é casual: uma camisa polo azul, calça jeans azul e tênis brancos. Ele está em pé sobre uma plataforma circular que tem um leve brilho, sugerindo um ambiente tecnológico avançado. Suas mãos estão nos bolsos, transmitindo uma postura relaxada. Ao redor do homem, flutuam sete caixas de diálogo retangulares com bordas arredondadas e um leve brilho translúcido, como se fossem hologramas. Cada caixa contém um ícone e uma palavra que representam as sete perguntas mencionadas no artigo. As caixas estão posicionadas em um círculo ao redor do homem, algumas mais à esquerda, outras à direita, e algumas acima ou abaixo dele."
 ---
 
