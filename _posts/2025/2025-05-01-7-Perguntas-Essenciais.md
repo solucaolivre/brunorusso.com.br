@@ -1,4 +1,3 @@
-
 ---
 title: "Como Entender Demandas de Negócio sob o olhar da Tecnologia com 7 Perguntas Essenciais"
 author: "Bruno Russo"
