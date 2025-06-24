@@ -1,6 +1,6 @@
 ---
 title: Uptime
-icon: fa fa-clock-o
+icon: fas fa-info
 order: 6
 ---
 
