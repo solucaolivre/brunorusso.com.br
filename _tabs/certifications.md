@@ -34,21 +34,22 @@ order: 1
   
 
 ## DevOps Institute
-- **SRE Foundation℠ Certification** - Emitido em dez dez de 2023 · Expira em dez de 2025
+- **SRE Foundation℠ Certification** - Emitido em dez de 2023 · Expira em dez de 2025
 
     
 ## AWS
+- **AWS Certified Solutions Architect – Professional** - Emitido em jun de 2022 · Expira em jun de 2028
+- **AWS Certified Solutions Architect – Associate** - Emitido em fev de 2021 · Expira em jun de 2028
+- **AWS Certified Cloud Practitioner** - Emitido em out de 2020 · Expira em jun de 2028
 - **AWS Certified Machine Learning Engineer – Associate** - Emitido em abr de 2025 · Expira em abr de 2028
+- **AWS Certified AI Practitioner** - Emitido em out de 2024 · Expira em out de 2028
 - **AWS Certified SysOps Administrator – Associate** - Emitido em dez de 2024 · Expira em dez de 2027
-- **AWS Certified AI Practitioner** - Emitido em out de 2024 · Expira em out de 2027
 - **AWS Certified Data Engineer – Associate** - Emitido em ago de 2024 · Expira em ago de 2027
 - **AWS Certified DevOps Engineer – Professional** - Emitido em mai de 2024 · Expira em mai de 2027
-- **AWS Certified Security – Specialty** - Emitido em mar de 2023 · Expira em mar de 2026
-- **AWS Certified Solutions Architect – Professional** - Emitido em jun de 2022 · Expira em jun de 2025
 - **AWS Certified Developer – Associate** - Emitido em ago de 2021 · Expira em mai de 2027
+- **AWS Certified Security – Specialty** - Emitido em mar de 2023 · Expira em mar de 2026
 - **AWS Cloud Financial Management for Builders** - Emitida em abr de 2021
-- **AWS Certified Solutions Architect – Associate** - Emitido em fev de 2021 · Expira em jun de 2025
-- **AWS Certified Cloud Practitioner** - Emitido em out de 2020 · Expira em jun de 2025
+
 
 
 ## Coursera Course Certificates
