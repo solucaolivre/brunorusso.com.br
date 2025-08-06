@@ -18,7 +18,7 @@ image:
 
 ## Introdução
 
-Os dados são o motor da tomada de decisões no mundo digital atual, e a Amazon Web Services (AWS) oferece uma gama abrangente de serviços para gerenciar, processar e analisar dados em grande escala. Este artigo explora os serviços de dados mais importantes da AWS, detalhando suas funcionalidades e casos de uso. Desde a construção de pipelines eficientes até a realização de transformações inteligentes e migrações de bancos de dados, a AWS capacita as empresas a extrair o valor máximo de seus ativos de dados.
+Os dados são o motor da tomada de decisões no mundo digital atual, e a Amazon Web Services (AWS) oferece uma gama abrangente de serviços para gerenciar, processar e analisar dados em grande escala. Este artigo explora os serviços de dados mais importantes da AWS, detalhando suas funcionalidades e casos de uso.
 
 
 ## AWS Data Pipeline
@@ -279,9 +279,9 @@ Os dois serviços não são concorrentes, mas sim complementares. Você pode usa
 
 ## Conclusão
 
-A jornada pelos serviços de dados da AWS revela um ecossistema robusto e flexível, projetado para atender a uma vasta gama de necessidades, desde a migração e orquestração até a transformação e o processamento em lote. O __AWS DMS__ brilha na migração de bancos de dados, assegurando a continuidade operacional, enquanto o __AWS Glue__ se estabelece como a solução serverless ideal para ETL, permitindo a preparação e o enriquecimento de dados em escala.
+A jornada pelos serviços de dados da AWS revela um ecossistema robusto e flexível, projetado para atender a uma vasta gama de necessidades, desde a migração e orquestração até a transformação e o processamento em lote. O __AWS DMS__ atua na migração de bancos de dados, assegurando a continuidade operacional, enquanto o __AWS Glue__ se estabelece como a solução serverless ideal para ETL, permitindo a preparação e o enriquecimento de dados em escala.
 
-O __AWS Data Pipeline__, por sua vez, oferece um controle granular sobre a orquestração de fluxos de trabalho, sendo perfeito para cenários que demandam automação de tarefas complexas e gerenciamento direto de ambientes de execução. Finalmente, o __AWS Batch__ se destaca como a plataforma de computação em lote de propósito geral, capaz de lidar com qualquer carga de trabalho computacional intensiva empacotada em contêineres Docker.
+O __AWS Data Pipeline__, por sua vez, oferece um controle granular sobre a orquestração de fluxos de trabalho, sendo perfeito para cenários que demandam automação de tarefas complexas e gerenciamento direto de ambientes de execução. Finalmente, o __AWS Batch__ se destaca como a plataforma de computação em lote de propósito geral, capaz de lidar com qualquer carga de trabalho computacional intensiva empacotada em contêineres Docker por exemplo.
 
 A escolha entre esses serviços não é de exclusão, mas sim de complementaridade. Muitas arquiteturas de dados modernas se beneficiam da combinação de várias dessas ferramentas, utilizando o DMS para migrar dados, o Glue para transformá-los, o Data Pipeline para orquestrar as etapas e o Batch para processar cargas de trabalho específicas. Compreender as funcionalidades e os casos de uso de cada um é fundamental para construir pipelines de dados eficientes, econômicos e escaláveis na nuvem da AWS, extraindo o máximo valor dos seus ativos de dados.
 
