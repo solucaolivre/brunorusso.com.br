@@ -38,6 +38,7 @@ order: 1
 
     
 ## AWS
+- **AWS Certified Machine Learning – Specialty** - Emitido em Set de 2025 · Expira em Set de 2028
 - **AWS Certified Solutions Architect – Professional** - Emitido em jun de 2022 · Expira em jun de 2028
 - **AWS Certified Solutions Architect – Associate** - Emitido em fev de 2021 · Expira em jun de 2028
 - **AWS Certified Cloud Practitioner** - Emitido em out de 2020 · Expira em jun de 2028
